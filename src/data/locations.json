@@ -1,0 +1,67 @@
+{
+  "areas": [
+    {
+      "id": "kokiri-forest",
+      "name": "Kokiri Forest",
+      "entrances": [
+        {
+          "id": "kokiri-to-lost-woods",
+          "name": "Lost Woods Entrance",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kokiri-to-deku-tree",
+          "name": "Deku Tree Entrance",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kokiri-to-hyrule-field",
+          "name": "Hyrule Field Exit",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "lost-woods",
+      "name": "Lost Woods",
+      "entrances": [
+        {
+          "id": "lost-woods-to-kokiri",
+          "name": "Kokiri Forest Entrance",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lost-woods-to-goron-city",
+          "name": "Goron City Entrance",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lost-woods-to-zoras-river",
+          "name": "Zora's River Entrance",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "hyrule-field",
+      "name": "Hyrule Field",
+      "entrances": [
+        {
+          "id": "hyrule-field-to-kokiri",
+          "name": "Kokiri Forest Entrance",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-field-to-castle-town",
+          "name": "Castle Town Entrance",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-field-to-kakariko",
+          "name": "Kakariko Village Entrance",
+          "defaultDestination": ""
+        }
+      ]
+    }
+  ]
+}
