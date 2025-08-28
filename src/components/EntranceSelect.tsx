@@ -1,34 +1,25 @@
 import React from 'react';
-import locationsData from '../data/locations.json';
-import type { Area } from '../types';
+import FilterableSelect from './FilterableSelect';
 
 interface EntranceSelectProps {
   entranceId: string;
+  entranceName: string;
   selectedDestination: string;
   onChange: (destinationId: string) => void;
+  isDarkBackground?: boolean; // Keep for compatibility but ignore
 }
 
 const EntranceSelect: React.FC<EntranceSelectProps> = ({ 
-  entranceId, 
+  entranceName,
   selectedDestination,
   onChange
 }) => {
-  // Create a flat list of all possible destinations
-  const allAreas = (locationsData as { areas: Area[] }).areas;
-  
   return (
-    <select 
+    <FilterableSelect
       value={selectedDestination}
-      onChange={(e) => onChange(e.target.value)}
-      className="entrance-select"
-    >
-      <option value="">-- Unknown --</option>
-      {allAreas.map(area => (
-        <option key={area.id} value={area.id}>
-          {area.name}
-        </option>
-      ))}
-    </select>
+      onChange={onChange}
+      ariaLabel={`Select destination for ${entranceName}`}
+    />
   );
 };
 

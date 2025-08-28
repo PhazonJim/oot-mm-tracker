@@ -11,12 +11,27 @@ export const AREA_COLORS = {
 
 // Area types mapping
 export const AREA_TYPES: Record<string, 'OVERWORLD' | 'DUNGEON' | 'TOWN' | 'SPECIAL'> = {
+  "castle-gate": "SPECIAL",
+  "market": "TOWN",
+  "temple-of-time-exterior": "SPECIAL",
+  "lon-lon-ranch": "OVERWORLD",
+  "hyrule-field": "OVERWORLD",
   "kokiri-forest": "OVERWORLD",
   "lost-woods": "OVERWORLD",
-  "hyrule-field": "OVERWORLD",
+  "sacred-forest-meadow": "OVERWORLD",
   "kakariko-village": "TOWN",
-  "castle-town": "TOWN",
-  "deku-tree": "DUNGEON",
+  "kakariko-graveyard": "SPECIAL",
+  "death-mountain-trail": "OVERWORLD",
   "goron-city": "TOWN",
-  "zoras-river": "OVERWORLD"
+  "death-mountain-crater": "OVERWORLD",
+  "zoras-river": "OVERWORLD",
+  "zoras-domain": "TOWN",
+  "zoras-fountain": "SPECIAL",
+  "lake-hylia": "OVERWORLD",
+  "gerudo-valley": "OVERWORLD",
+  "gerudo-fortress": "SPECIAL",
+  "haunted-wastelands": "OVERWORLD",
+  "desert-colossus": "SPECIAL",
+  "hyrule-castle": "SPECIAL",
+  "ganons-castle-exterior": "SPECIAL"
 };

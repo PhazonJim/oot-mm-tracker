@@ -8,6 +8,7 @@ export interface Area {
   id: string;
   name: string;
   entrances: Entrance[];
+  color?: string; // Optional color property
 }
 
 export interface LocationsData {

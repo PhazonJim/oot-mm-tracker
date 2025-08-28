@@ -1,43 +1,139 @@
 {
   "areas": [
     {
-      "id": "kokiri-forest",
-      "name": "Kokiri Forest",
+      "id": "castle-gate",
+      "name": "Castle Gate",
+      "color": "#4CAF50",
       "entrances": [
         {
-          "id": "kokiri-to-lost-woods",
-          "name": "Lost Woods Entrance",
+          "id": "castle-gate-to-hyrule-field",
+          "name": "Hyrule Field",
           "defaultDestination": ""
         },
         {
-          "id": "kokiri-to-deku-tree",
-          "name": "Deku Tree Entrance",
+          "id": "castle-gate-to-market",
+          "name": "Market",
           "defaultDestination": ""
         },
         {
-          "id": "kokiri-to-hyrule-field",
-          "name": "Hyrule Field Exit",
+          "id": "castle-gate-to-guard-house",
+          "name": "Guard House",
           "defaultDestination": ""
         }
       ]
     },
     {
-      "id": "lost-woods",
-      "name": "Lost Woods",
+      "id": "market",
+      "name": "Market",
+      "color": "#2196F3",
       "entrances": [
         {
-          "id": "lost-woods-to-kokiri",
-          "name": "Kokiri Forest Entrance",
+          "id": "market-to-castle-gate",
+          "name": "Castle Gate",
           "defaultDestination": ""
         },
         {
-          "id": "lost-woods-to-goron-city",
-          "name": "Goron City Entrance",
+          "id": "market-to-temple-of-time-exterior",
+          "name": "Temple of Time Exterior",
           "defaultDestination": ""
         },
         {
-          "id": "lost-woods-to-zoras-river",
-          "name": "Zora's River Entrance",
+          "id": "market-to-hyrule-castle",
+          "name": "Hyrule Castle",
+          "defaultDestination": ""
+        },
+        {
+          "id": "market-to-mask-shop",
+          "name": "Mask Shop",
+          "defaultDestination": ""
+        },
+        {
+          "id": "market-to-child-bazaar",
+          "name": "Child Bazaar",
+          "defaultDestination": ""
+        },
+        {
+          "id": "market-to-child-potion-shop",
+          "name": "Child Potion Shop",
+          "defaultDestination": ""
+        },
+        {
+          "id": "market-to-child-shooting-gallery",
+          "name": "Child Shooting Gallery",
+          "defaultDestination": ""
+        },
+        {
+          "id": "market-to-bombchu-bowling",
+          "name": "Bombchu Bowling",
+          "defaultDestination": ""
+        },
+        {
+          "id": "market-to-market-chest-game",
+          "name": "Market Chest Game",
+          "defaultDestination": ""
+        },
+        {
+          "id": "market-to-bombchu-shop",
+          "name": "Bombchu Shop",
+          "defaultDestination": ""
+        },
+        {
+          "id": "market-to-alley-house",
+          "name": "Alley House",
+          "defaultDestination": ""
+        },
+        {
+          "id": "market-to-richards-house",
+          "name": "Richard's House",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "temple-of-time-exterior",
+      "name": "Temple of Time Exterior",
+      "color": "#FF9800",
+      "entrances": [
+        {
+          "id": "temple-of-time-exterior-to-market",
+          "name": "Market",
+          "defaultDestination": ""
+        },
+        {
+          "id": "temple-of-time-exterior-to-temple-of-time",
+          "name": "Temple of Time",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "lon-lon-ranch",
+      "name": "Lon Lon Ranch",
+      "color": "#8BC34A",
+      "entrances": [
+        {
+          "id": "lon-lon-ranch-to-hyrule-field",
+          "name": "Hyrule Field",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lon-lon-ranch-to-talons-house",
+          "name": "Talon's House",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lon-lon-ranch-to-stables",
+          "name": "Stables",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lon-lon-ranch-to-silo",
+          "name": "Silo",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lon-lon-ranch-to-open-grotto",
+          "name": "Open Grotto",
           "defaultDestination": ""
         }
       ]
@@ -45,20 +141,697 @@
     {
       "id": "hyrule-field",
       "name": "Hyrule Field",
+      "color": "#4CAF50",
       "entrances": [
         {
-          "id": "hyrule-field-to-kokiri",
-          "name": "Kokiri Forest Entrance",
+          "id": "hyrule-field-to-castle-gate",
+          "name": "Castle Gate",
           "defaultDestination": ""
         },
         {
-          "id": "hyrule-field-to-castle-town",
-          "name": "Castle Town Entrance",
+          "id": "hyrule-field-to-lon-lon-ranch",
+          "name": "Lon Lon Ranch",
           "defaultDestination": ""
         },
         {
-          "id": "hyrule-field-to-kakariko",
-          "name": "Kakariko Village Entrance",
+          "id": "hyrule-field-to-bridge-in-lost-woods",
+          "name": "Bridge in Lost Woods",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-field-to-kakariko-village",
+          "name": "Kakariko Village",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-field-to-zoras-river",
+          "name": "Zora's River",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-field-to-lake-hylia",
+          "name": "Lake Hylia",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-field-to-gerudo-valley",
+          "name": "Gerudo Valley",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-field-to-boulder-grotto-by-market",
+          "name": "Boulder Grotto by Market",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-field-to-tree-grotto-by-kak",
+          "name": "Tree Grotto by Kak",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-field-to-forest-grotto",
+          "name": "Forest Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-field-to-open-grotto",
+          "name": "Open Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-field-to-fence-grotto",
+          "name": "Fence Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-field-to-rock-circle-grotto",
+          "name": "Rock Circle Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-field-to-lone-tree-grotto",
+          "name": "Lone Tree Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-field-to-river-grotto",
+          "name": "River Grotto",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "kokiri-forest",
+      "name": "Kokiri Forest",
+      "color": "#4CAF50",
+      "entrances": [
+        {
+          "id": "kokiri-forest-to-bridge-in-lost-woods",
+          "name": "Bridge in Lost Woods",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kokiri-forest-to-lost-woods",
+          "name": "Lost Woods",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kokiri-forest-to-links-house",
+          "name": "Link's House",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kokiri-forest-to-sarias-house",
+          "name": "Saria's House",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kokiri-forest-to-twins-house",
+          "name": "Twins' House",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kokiri-forest-to-kokiri-shop",
+          "name": "Kokiri Shop",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kokiri-forest-to-midos-house",
+          "name": "Mido's House",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kokiri-forest-to-know-it-alls-house",
+          "name": "Know-it-Alls' House",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kokiri-forest-to-storms-grotto",
+          "name": "Storms Grotto",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "lost-woods",
+      "name": "Lost Woods",
+      "color": "#388E3C",
+      "entrances": [
+        {
+          "id": "lost-woods-to-bridge-to-kokiri-forest",
+          "name": "Bridge to Kokiri Forest",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lost-woods-to-bridge-to-hyrule-field",
+          "name": "Bridge to Hyrule Field",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lost-woods-to-kokiri-forest",
+          "name": "Kokiri Forest",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lost-woods-to-goron-city-shortcut",
+          "name": "Goron City Shortcut",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lost-woods-to-zoras-river-shortcut",
+          "name": "Zora's River Shortcut",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lost-woods-to-sacred-forest-meadow",
+          "name": "Sacred Forest Meadow",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lost-woods-to-grotto-by-gc-shortcut",
+          "name": "Grotto by GC Shortcut",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lost-woods-to-grass-grotto",
+          "name": "Grass Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lost-woods-to-grotto-by-sfm",
+          "name": "Grotto by SFM",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "sacred-forest-meadow",
+      "name": "Sacred Forest Meadow",
+      "color": "#66BB6A",
+      "entrances": [
+        {
+          "id": "sacred-forest-meadow-to-lost-woods",
+          "name": "Lost Woods",
+          "defaultDestination": ""
+        },
+        {
+          "id": "sacred-forest-meadow-to-entrance-grotto",
+          "name": "Entrance Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "sacred-forest-meadow-to-maze-grotto",
+          "name": "Maze Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "sacred-forest-meadow-to-storms-grotto",
+          "name": "Storms Grotto",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "kakariko-village",
+      "name": "Kakariko Village",
+      "color": "#795548",
+      "entrances": [
+        {
+          "id": "kakariko-village-to-hyrule-field",
+          "name": "Hyrule Field",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-village-to-death-mountain-trail",
+          "name": "Death Mountain Trail",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-village-to-kakariko-graveyard",
+          "name": "Kakariko Graveyard",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-village-to-adult-bazaar",
+          "name": "Adult Bazaar",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-village-to-adult-potion-shop-front",
+          "name": "Adult Potion Shop Front",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-village-to-adult-potion-shop-back",
+          "name": "Adult Potion Shop Back",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-village-to-granny-potion-shop",
+          "name": "Granny Potion Shop",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-village-to-carpenters-house",
+          "name": "Carpenter's House",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-village-to-house-of-skulltula",
+          "name": "House of Skulltula",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-village-to-impas-house",
+          "name": "Impa's House",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-village-to-impas-cow",
+          "name": "Impa's Cow",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-village-to-adult-shooting-gallery",
+          "name": "Adult Shooting Gallery",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-village-to-windmill",
+          "name": "Windmill",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-village-to-center-grotto",
+          "name": "Center Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-village-to-open-grotto",
+          "name": "Open Grotto",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "kakariko-graveyard",
+      "name": "Kakariko Graveyard",
+      "color": "#424242",
+      "entrances": [
+        {
+          "id": "kakariko-graveyard-to-kakariko-village",
+          "name": "Kakariko Village",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-graveyard-to-dampes-hut",
+          "name": "Dampe's Hut",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-graveyard-to-middle-grave",
+          "name": "Middle Grave",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-graveyard-to-right-grave",
+          "name": "Right Grave",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-graveyard-to-left-grave",
+          "name": "Left Grave",
+          "defaultDestination": ""
+        },
+        {
+          "id": "kakariko-graveyard-to-royal-family-tomb",
+          "name": "Royal Family Tomb",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "death-mountain-trail",
+      "name": "Death Mountain Trail",
+      "color": "#D84315",
+      "entrances": [
+        {
+          "id": "death-mountain-trail-to-kakariko-village",
+          "name": "Kakariko Village",
+          "defaultDestination": ""
+        },
+        {
+          "id": "death-mountain-trail-to-goron-city",
+          "name": "Goron City",
+          "defaultDestination": ""
+        },
+        {
+          "id": "death-mountain-trail-to-death-mountain-crater",
+          "name": "Death Mountain Crater",
+          "defaultDestination": ""
+        },
+        {
+          "id": "death-mountain-trail-to-great-fairy-of-power",
+          "name": "Great Fairy of Power",
+          "defaultDestination": ""
+        },
+        {
+          "id": "death-mountain-trail-to-boulder-grotto",
+          "name": "Boulder Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "death-mountain-trail-to-storms-grotto",
+          "name": "Storms Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "death-mountain-trail-to-owl-flight-to-impas-house",
+          "name": "Owl Flight to Impa's House",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "goron-city",
+      "name": "Goron City",
+      "color": "#FF5722",
+      "entrances": [
+        {
+          "id": "goron-city-to-death-mountain-trail",
+          "name": "Death Mountain Trail",
+          "defaultDestination": ""
+        },
+        {
+          "id": "goron-city-to-lost-woods-shortcut",
+          "name": "Lost Woods Shortcut",
+          "defaultDestination": ""
+        },
+        {
+          "id": "goron-city-to-death-mountain-crater",
+          "name": "Death Mountain Crater",
+          "defaultDestination": ""
+        },
+        {
+          "id": "goron-city-to-goron-city-shop",
+          "name": "Goron City Shop",
+          "defaultDestination": ""
+        },
+        {
+          "id": "goron-city-to-lava-room-grotto",
+          "name": "Lava Room Grotto",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "death-mountain-crater",
+      "name": "Death Mountain Crater",
+      "color": "#BF360C",
+      "entrances": [
+        {
+          "id": "death-mountain-crater-to-death-mountain-trail",
+          "name": "Death Mountain Trail",
+          "defaultDestination": ""
+        },
+        {
+          "id": "death-mountain-crater-to-goron-city",
+          "name": "Goron City",
+          "defaultDestination": ""
+        },
+        {
+          "id": "death-mountain-crater-to-great-fairy-of-wisdom",
+          "name": "Great Fairy of Wisdom",
+          "defaultDestination": ""
+        },
+        {
+          "id": "death-mountain-crater-to-red-boulder-grotto",
+          "name": "Red Boulder Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "death-mountain-crater-to-rock-circle-grotto",
+          "name": "Rock Circle Grotto",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "zoras-river",
+      "name": "Zora's River",
+      "color": "#2196F3",
+      "entrances": [
+        {
+          "id": "zoras-river-to-hyrule-field",
+          "name": "Hyrule Field",
+          "defaultDestination": ""
+        },
+        {
+          "id": "zoras-river-to-zoras-domain",
+          "name": "Zora's Domain",
+          "defaultDestination": ""
+        },
+        {
+          "id": "zoras-river-to-lost-woods-shortcut",
+          "name": "Lost Woods Shortcut",
+          "defaultDestination": ""
+        },
+        {
+          "id": "zoras-river-to-storms-grotto",
+          "name": "Storms Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "zoras-river-to-open-grotto",
+          "name": "Open Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "zoras-river-to-rock-circle-grotto",
+          "name": "Rock Circle Grotto",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "zoras-domain",
+      "name": "Zora's Domain",
+      "color": "#1976D2",
+      "entrances": [
+        {
+          "id": "zoras-domain-to-zoras-river",
+          "name": "Zora's River",
+          "defaultDestination": ""
+        },
+        {
+          "id": "zoras-domain-to-lake-hylia-shortcut",
+          "name": "Lake Hylia Shortcut",
+          "defaultDestination": ""
+        },
+        {
+          "id": "zoras-domain-to-zoras-fountain",
+          "name": "Zora's Fountain",
+          "defaultDestination": ""
+        },
+        {
+          "id": "zoras-domain-to-zoras-domain-shop",
+          "name": "Zora's Domain Shop",
+          "defaultDestination": ""
+        },
+        {
+          "id": "zoras-domain-to-storms-grotto",
+          "name": "Storms Grotto",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "zoras-fountain",
+      "name": "Zora's Fountain",
+      "color": "#03A9F4",
+      "entrances": [
+        {
+          "id": "zoras-fountain-to-zoras-domain",
+          "name": "Zora's Domain",
+          "defaultDestination": ""
+        },
+        {
+          "id": "zoras-fountain-to-great-fairy-of-magic-farore",
+          "name": "Great Fairy of Magic (Farore)",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "lake-hylia",
+      "name": "Lake Hylia",
+      "color": "#00BCD4",
+      "entrances": [
+        {
+          "id": "lake-hylia-to-hyrule-field",
+          "name": "Hyrule Field",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lake-hylia-to-zoras-domain-shortcut",
+          "name": "Zora's Domain Shortcut",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lake-hylia-to-laboratory",
+          "name": "Laboratory",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lake-hylia-to-fishing-pond",
+          "name": "Fishing Pond",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lake-hylia-to-scrub-grave",
+          "name": "Scrub Grave",
+          "defaultDestination": ""
+        },
+        {
+          "id": "lake-hylia-to-owl-flight-to-hf-drawbridge",
+          "name": "Owl Flight to HF Drawbridge",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "gerudo-valley",
+      "name": "Gerudo Valley",
+      "color": "#FF9800",
+      "entrances": [
+        {
+          "id": "gerudo-valley-to-hyrule-field",
+          "name": "Hyrule Field",
+          "defaultDestination": ""
+        },
+        {
+          "id": "gerudo-valley-to-gerudo-fortress",
+          "name": "Gerudo Fortress",
+          "defaultDestination": ""
+        },
+        {
+          "id": "gerudo-valley-to-carpenters-tent",
+          "name": "Carpenter's Tent",
+          "defaultDestination": ""
+        },
+        {
+          "id": "gerudo-valley-to-silver-boulder-grotto",
+          "name": "Silver Boulder Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "gerudo-valley-to-storms-grotto",
+          "name": "Storms Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "gerudo-valley-to-waterfall-to-lake-hylia",
+          "name": "Waterfall to Lake Hylia",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "gerudo-fortress",
+      "name": "Gerudo Fortress",
+      "color": "#F57C00",
+      "entrances": [
+        {
+          "id": "gerudo-fortress-to-gerudo-valley",
+          "name": "Gerudo Valley",
+          "defaultDestination": ""
+        },
+        {
+          "id": "gerudo-fortress-to-haunted-wastelands",
+          "name": "Haunted Wastelands",
+          "defaultDestination": ""
+        },
+        {
+          "id": "gerudo-fortress-to-storms-grotto",
+          "name": "Storms Grotto",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "haunted-wastelands",
+      "name": "Haunted Wastelands",
+      "color": "#FFC107",
+      "entrances": [
+        {
+          "id": "haunted-wastelands-to-gerudo-fortress",
+          "name": "Gerudo Fortress",
+          "defaultDestination": ""
+        },
+        {
+          "id": "haunted-wastelands-to-desert-colossus",
+          "name": "Desert Colossus",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "desert-colossus",
+      "name": "Desert Colossus",
+      "color": "#FFEB3B",
+      "entrances": [
+        {
+          "id": "desert-colossus-to-haunted-wastelands",
+          "name": "Haunted Wastelands",
+          "defaultDestination": ""
+        },
+        {
+          "id": "desert-colossus-to-great-fairy-of-magic-nayru",
+          "name": "Great Fairy of Magic (Nayru)",
+          "defaultDestination": ""
+        },
+        {
+          "id": "desert-colossus-to-silver-boulder-grotto",
+          "name": "Silver Boulder Grotto",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "hyrule-castle",
+      "name": "Hyrule Castle",
+      "color": "#9C27B0",
+      "entrances": [
+        {
+          "id": "hyrule-castle-to-great-fairy-of-magic-din",
+          "name": "Great Fairy of Magic (Din)",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-castle-to-storms-grotto",
+          "name": "Storms Grotto",
+          "defaultDestination": ""
+        },
+        {
+          "id": "hyrule-castle-to-market",
+          "name": "Market",
+          "defaultDestination": ""
+        }
+      ]
+    },
+    {
+      "id": "ganons-castle-exterior",
+      "name": "Ganon's Castle Exterior",
+      "color": "#673AB7",
+      "entrances": [
+        {
+          "id": "ganons-castle-exterior-to-great-fairy-of-courage",
+          "name": "Great Fairy of Courage",
+          "defaultDestination": ""
+        },
+        {
+          "id": "ganons-castle-exterior-to-market",
+          "name": "Market",
           "defaultDestination": ""
         }
       ]

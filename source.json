@@ -1,0 +1,230 @@
+{
+    "Castle Gate": [
+        "Hyrule Field",
+        "Market",
+        "Guard House"
+    ],
+    "Market": [
+        "Castle Gate",
+        "Temple of Time Exterior",
+        "Hyrule Castle",
+        "Mask Shop",
+        "Child Bazaar",
+        "Child Potion Shop",
+        "Child Shooting Gallery",
+        "Bombchu Bowling",
+        "Market Chest Game",
+        "Bombchu Shop",
+        "Alley House",
+        "Richard's House"
+    ],
+    "Temple of Time Exterior": [
+        "Market",
+        "Temple of Time"
+    ],
+    "Lon Lon Ranch": [
+        "Hyrule Field",
+        "Talon's House",
+        "Stables",
+        "Silo",
+        "Open Grotto"
+    ],
+    "Hyrule Field": [
+        "Castle Gate",
+        "Lon Lon Ranch",
+        "Bridge in Lost Woods",
+        "Kakariko Village",
+        "Zora's River",
+        "Lake Hylia",
+        "Gerudo Valley",
+        "Boulder Grotto by Market",
+        "Tree Grotto by Kak",
+        "Forest Grotto",
+        "Open Grotto",
+        "Fence Grotto",
+        "Rock Circle Grotto",
+        "Lone Tree Grotto",
+        "River Grotto"
+    ],
+    "Kokiri Forest": [
+        "Bridge in Lost Woods",
+        "Lost Woods",
+        "Link's House",
+        "Saria's House",
+        "Twins' House",
+        "Kokiri Shop",
+        "Mido's House",
+        "Know-it-Alls' House",
+        "Storms Grotto"
+    ],
+    "Lost Woods": [
+        "Bridge to Kokiri Forest",
+        "Bridge to Hyrule Field",
+        "Kokiri Forest",
+        "Goron City Shortcut",
+        "Zora's River Shortcut",
+        "Sacred Forest Meadow",
+        "Grotto by GC Shortcut",
+        "Grass Grotto",
+        "Grotto by SFM"
+    ],
+    "Sacred Forest Meadow": [
+        "Lost Woods",
+        "Entrance Grotto",
+        "Maze Grotto",
+        "Storms Grotto"
+    ],
+    "Kakariko Village": [
+        "Hyrule Field",
+        "Death Mountain Trail",
+        "Kakariko Graveyard",
+        "Adult Bazaar",
+        "Adult Potion Shop Front",
+        "Adult Potion Shop Back",
+        "Granny Potion Shop",
+        "Carpenter's House",
+        "House of Skulltula",
+        "Impa's House",
+        "Impa's Cow",
+        "Adult Shooting Gallery",
+        "Windmill",
+        "Center Grotto",
+        "Open Grotto"
+    ],
+    "Kakariko Graveyard": [
+        "Kakariko Village",
+        "Dampe's Hut",
+        "Middle Grave",
+        "Right Grave",
+        "Left Grave",
+        "Royal Family Tomb"
+    ],
+    "Death Mountain Trail": [
+        "Kakariko Village",
+        "Goron City",
+        "Death Mountain Crater",
+        "Great Fairy of Power",
+        "Boulder Grotto",
+        "Storms Grotto",
+        "Owl Flight to Impa's House"
+    ],
+    "Goron City": [
+        "Death Mountain Trail",
+        "Lost Woods Shortcut",
+        "Death Mountain Crater",
+        "Goron City Shop",
+        "Lava Room Grotto"
+    ],
+    "Death Mountain Crater": [
+        "Death Mountain Trail",
+        "Goron City",
+        "Great Fairy of Wisdom",
+        "Red Boulder Grotto",
+        "Rock Circle Grotto"
+    ],
+    "Zora's River": [
+        "Hyrule Field",
+        "Zora's Domain",
+        "Lost Woods Shortcut",
+        "Storms Grotto",
+        "Open Grotto",
+        "Rock Circle Grotto"
+    ],
+    "Zora's Domain": [
+        "Zora's River",
+        "Lake Hylia Shortcut",
+        "Zora's Fountain",
+        "Zora's Domain Shop",
+        "Storms Grotto"
+    ],
+    "Zora's Fountain": [
+        "Zora's Domain",
+        "Great Fairy of Magic (Farore)"
+    ],
+    "Lake Hylia": [
+        "Hyrule Field",
+        "Zora's Domain Shortcut",
+        "Laboratory",
+        "Fishing Pond",
+        "Scrub Grave",
+        "Owl Flight to HF Drawbridge"
+    ],
+    "Gerudo Valley": [
+        "Hyrule Field",
+        "Gerudo Fortress",
+        "Carpenter's Tent",
+        "Silver Boulder Grotto",
+        "Storms Grotto",
+        "Waterfall to Lake Hylia"
+    ],
+    "Gerudo Fortress": [
+        "Gerudo Valley",
+        "Haunted Wastelands",
+        "Storms Grotto"
+    ],
+    "Haunted Wastelands": [
+        "Gerudo Fortress",
+        "Desert Colossus"
+    ],
+    "Desert Colossus": [
+        "Haunted Wastelands",
+        "Great Fairy of Magic (Nayru)",
+        "Silver Boulder Grotto"
+    ],
+    "Hyrule Castle": [
+        "Great Fairy of Magic (Din)",
+        "Storms Grotto",
+        "Market"
+    ],
+    "Ganon's Castle Exterior": [
+        "Great Fairy of Courage",
+        "Market"
+    ],
+    "Warp Songs": [
+        "Prelude of Light",
+        "Minuet of Forest",
+        "Bolero of Fire",
+        "Serenade of Water",
+        "Nocturne of Shadow",
+        "Requiem of Spirit"
+    ],
+    "Spawns": [
+        "Child Spawn",
+        "Adult Spawn"
+    ],
+    "Overworld One-ways": [
+        "Lost Woods - Cardinal North",
+        "Lost Woods - Cardinal South",
+        "Lost Woods - Cardinal East",
+        "Lost Woods - Cardinal West"
+    ],
+    "Wallmasters": [
+        "Forest Temple - West Hall",
+        "Forest Temple - East Hall",
+        "Shadow Temple - Guillotine Room",
+        "[Vanilla] Spirit Temple - Child Lower",
+        "[Vanilla] Spirit Temple - Adult Climb",
+        "[MQ] Spirit Temple - Sun Blocks",
+        "[MQ] Spirit Temple - Statue",
+        "[Vanilla] Bottom of the Well - Center Room",
+        "[MQ] Bottom of the Well - Basement",
+        "[MQ] Bottom of the Well - Pits Room",
+        "Gerudo Training Grounds - Slope Room",
+        "[Vanilla] Ganon's Castle - Spirit Trial"
+    ], 
+    "Dungeons": [
+        "Deku Tree",
+        "Dodongo's Cavern",
+        "Jabu Jabu's Belly",
+        "Forest Temple",
+        "Fire Temple",
+        "Water Temple",
+        "Shadow Temple",
+        "Spirit Temple",
+        "Ice Cavern",
+        "Bottom of the Well",
+        "Gerudo Training Grounds",
+        "Ganon's Castle",
+        "Ganon's Tower"
+    ]
+}
