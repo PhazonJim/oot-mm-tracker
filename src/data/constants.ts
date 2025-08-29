@@ -26,6 +26,12 @@ export const AREA_TYPES: Record<string, 'OVERWORLD' | 'DUNGEON' | 'TOWN' | 'SPEC
   "hyrule-castle": "OVERWORLD",
   "ganons-castle-exterior": "OVERWORLD",
   
+  // OOT Dungeons
+  "ganons-castle": "DUNGEON",
+  "forest-temple": "DUNGEON",
+  "shadow-temple": "DUNGEON",
+  "spirit-temple": "DUNGEON",
+
   // OOT Towns/Settlements
   "market": "TOWN",
   "kakariko-village": "TOWN",
@@ -34,8 +40,6 @@ export const AREA_TYPES: Record<string, 'OVERWORLD' | 'DUNGEON' | 'TOWN' | 'SPEC
   
   // OOT Special/Meta Areas
   "warp-songs": "SPECIAL",
-  "wallmasters-oot": "SPECIAL",
-  "overworld-one-ways": "SPECIAL",
   "spawns": "SPECIAL",
   
   // === MAJORA'S MASK AREAS ===
@@ -73,6 +77,7 @@ export const AREA_TYPES: Record<string, 'OVERWORLD' | 'DUNGEON' | 'TOWN' | 'SPEC
   "pirates-fortress-sewers": "DUNGEON",
   "pirates-fortress-interior": "DUNGEON",
   "pinnacle-rock": "OVERWORLD",
+  "beneath-the-well": "DUNGEON",
   
   // MM Ikana Region
   "road-to-ikana": "OVERWORLD",
@@ -87,9 +92,5 @@ export const AREA_TYPES: Record<string, 'OVERWORLD' | 'DUNGEON' | 'TOWN' | 'SPEC
   "gorman-track": "OVERWORLD",
   
   // Special/Meta Areas (Both games use same "dungeons" key)
-  "dungeons-mm": "SPECIAL",
-  "dungeons-oot": "SPECIAL",
   "owl-statues": "SPECIAL",
-  "great-bay-water-voids": "SPECIAL",
-  "wallmasters-mm": "SPECIAL"
 };

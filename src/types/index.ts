@@ -1,8 +1,8 @@
 export interface Entrance {
   id: string;
   name: string;
-  defaultDestination: string;
   game: string;
+  icon?: string;
 }
 
 export interface Area {

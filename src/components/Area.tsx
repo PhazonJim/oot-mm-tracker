@@ -1,6 +1,7 @@
 import React from 'react';
 import EntranceSelect from './EntranceSelect';
 import { useTrackerContext } from '../context/TrackerContext';
+import { getIconUrl } from '../utils/getIconUrl';
 import type { Area as AreaType } from '../types';
 
 interface AreaProps {
@@ -68,11 +69,21 @@ const Area: React.FC<AreaProps> = ({
             style={textStyle}
             role="listitem"
           >
-            <span id={`entrance-${entrance.id}`}>{entrance.name}</span>
+            <div className="entrance-name-container">
+              {entrance.icon && getIconUrl(entrance.icon) && (
+                <img 
+                  src={getIconUrl(entrance.icon)} 
+                  alt=""
+                  className="entrance-icon"
+                  aria-hidden="true"
+                />
+              )}
+              <span id={`entrance-${entrance.id}`}>{entrance.name}</span>
+            </div>
             <EntranceSelect 
               entranceId={entrance.id}
               entranceName={entrance.name}
-              selectedDestination={connections[entrance.id] || entrance.defaultDestination}
+              selectedDestination={connections[entrance.id] || ""}
               onChange={(destination) => updateConnection(entrance.id, destination)}
               isDarkBackground={isDarkColor}
             />
