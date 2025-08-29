@@ -137,7 +137,8 @@
         {
           "id": "lon-lon-ranch-to-open-grotto",
           "name": "Open Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         }
       ],
       "game": "OOT"
@@ -185,42 +186,50 @@
         {
           "id": "hyrule-field-to-boulder-grotto-by-market",
           "name": "Boulder Grotto by Market",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "hyrule-field-to-tree-grotto-by-kak",
           "name": "Tree Grotto by Kak",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "hyrule-field-to-forest-grotto",
           "name": "Forest Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "hyrule-field-to-open-grotto",
           "name": "Open Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "hyrule-field-to-fence-grotto",
           "name": "Fence Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "hyrule-field-to-rock-circle-grotto",
           "name": "Rock Circle Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "hyrule-field-to-lone-tree-grotto",
           "name": "Lone Tree Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "hyrule-field-to-river-grotto",
           "name": "River Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         }
       ],
       "game": "OOT"
@@ -273,7 +282,8 @@
         {
           "id": "kokiri-forest-to-storms-grotto",
           "name": "Storms Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "kokiri-forest-to-deku-tree",
@@ -320,19 +330,42 @@
           "game": "OOT"
         },
         {
+          "id": "lost-woods-to-north-voidout",
+          "name": "North Voidout",
+          "game": "OOT"
+        },
+        {
+          "id": "lost-woods-to-south-voidout",
+          "name": "South Voidout",
+          "game": "OOT"
+        },
+        {
+          "id": "lost-woods-to-east-voidout",
+          "name": "East Voidout",
+          "game": "OOT"
+        },
+        {
+          "id": "lost-woods-to-west-voidout",
+          "name": "West Voidout",
+          "game": "OOT"
+        },
+        {
           "id": "lost-woods-to-grotto-by-gc-shortcut",
           "name": "Grotto by GC Shortcut",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "lost-woods-to-grass-grotto",
           "name": "Grass Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "lost-woods-to-grotto-by-sfm",
           "name": "Grotto by SFM",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         }
       ],
       "game": "OOT"
@@ -350,17 +383,20 @@
         {
           "id": "sacred-forest-meadow-to-entrance-grotto",
           "name": "Entrance Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "sacred-forest-meadow-to-maze-grotto",
           "name": "Maze Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "sacred-forest-meadow-to-storms-grotto",
           "name": "Storms Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "sacred-forest-meadow-to-forest-temple",
@@ -463,12 +499,14 @@
         {
           "id": "kakariko-village-to-center-grotto",
           "name": "Center Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "kakariko-village-to-open-grotto",
           "name": "Open Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "kakariko-village-to-bottom-of-the-well",
@@ -547,12 +585,6 @@
           "game": "OOT"
         },
         {
-          "id": "death-mountain-trail-to-dodongos-cavern",
-          "name": "Dodongo's Cavern",
-          "game": "OOT",
-          "icon": "big-key.png"
-        },
-        {
           "id": "death-mountain-trail-to-goron-city",
           "name": "Goron City",
           "game": "OOT"
@@ -568,19 +600,28 @@
           "game": "OOT"
         },
         {
+          "id": "death-mountain-trail-to-owl-flight-to-impas-house",
+          "name": "Owl Flight to Impa's House",
+          "game": "OOT",
+          "icon": "owl.png"
+        },
+        {
           "id": "death-mountain-trail-to-boulder-grotto",
           "name": "Boulder Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "death-mountain-trail-to-storms-grotto",
           "name": "Storms Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
-          "id": "death-mountain-trail-to-owl-flight-to-impas-house",
-          "name": "Owl Flight to Impa's House",
-          "game": "OOT"
+          "id": "death-mountain-trail-to-dodongos-cavern",
+          "name": "Dodongo's Cavern",
+          "game": "OOT",
+          "icon": "big-key.png"
         }
       ],
       "game": "OOT"
@@ -613,7 +654,8 @@
         {
           "id": "goron-city-to-lava-room-grotto",
           "name": "Lava Room Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         }
       ],
       "game": "OOT"
@@ -641,12 +683,14 @@
         {
           "id": "death-mountain-crater-to-red-boulder-grotto",
           "name": "Red Boulder Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "death-mountain-crater-to-rock-circle-grotto",
           "name": "Rock Circle Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "death-mountain-crater-to-fire-temple",
@@ -680,17 +724,20 @@
         {
           "id": "zoras-river-to-storms-grotto",
           "name": "Storms Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "zoras-river-to-open-grotto",
           "name": "Open Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "zoras-river-to-rock-circle-grotto",
           "name": "Rock Circle Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         }
       ],
       "game": "OOT"
@@ -723,7 +770,8 @@
         {
           "id": "zoras-domain-to-storms-grotto",
           "name": "Storms Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         }
       ],
       "game": "OOT"
@@ -791,7 +839,8 @@
         {
           "id": "lake-hylia-to-owl-flight-to-hf-drawbridge",
           "name": "Owl Flight to HF Drawbridge",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "owl.png"
         },
         {
           "id": "lake-hylia-to-water-temple",
@@ -823,19 +872,21 @@
           "game": "OOT"
         },
         {
+          "id": "gerudo-valley-to-waterfall-to-lake-hylia",
+          "name": "Waterfall to Lake Hylia",
+          "game": "OOT"
+        },
+        {
           "id": "gerudo-valley-to-silver-boulder-grotto",
           "name": "Silver Boulder Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "gerudo-valley-to-storms-grotto",
           "name": "Storms Grotto",
-          "game": "OOT"
-        },
-        {
-          "id": "gerudo-valley-to-waterfall-to-lake-hylia",
-          "name": "Waterfall to Lake Hylia",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         }
       ],
       "game": "OOT"
@@ -858,7 +909,8 @@
         {
           "id": "gerudo-fortress-to-storms-grotto",
           "name": "Storms Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "gerudo-fortress-to-gerudo-training-grounds",
@@ -905,7 +957,8 @@
         {
           "id": "desert-colossus-to-silver-boulder-grotto",
           "name": "Silver Boulder Grotto",
-          "game": "OOT"
+          "game": "OOT",
+          "icon": "grotto.png"
         },
         {
           "id": "desert-colossus-to-spirit-temple",
@@ -953,14 +1006,15 @@
           "game": "OOT"
         },
         {
-          "id": "hyrule-castle-to-storms-grotto",
-          "name": "Storms Grotto",
-          "game": "OOT"
-        },
-        {
           "id": "hyrule-castle-to-market",
           "name": "Market",
           "game": "OOT"
+        },
+        {
+          "id": "hyrule-castle-to-storms-grotto",
+          "name": "Storms Grotto",
+          "game": "OOT",
+          "icon": "grotto.png"
         }
       ],
       "game": "OOT"
@@ -1040,34 +1094,6 @@
         {
           "id": "adult-spawn",
           "name": "Adult Spawn",
-          "game": "OOT"
-        }
-      ],
-      "game": "OOT"
-    },
-    {
-      "id": "overworld-one-ways",
-      "name": "Overworld One-ways",
-      "color": "#E8887B",
-      "entrances": [
-        {
-          "id": "lost-woods-cardinal-north",
-          "name": "Lost Woods - Cardinal North",
-          "game": "OOT"
-        },
-        {
-          "id": "lost-woods-cardinal-south",
-          "name": "Lost Woods - Cardinal South",
-          "game": "OOT"
-        },
-        {
-          "id": "lost-woods-cardinal-east",
-          "name": "Lost Woods - Cardinal East",
-          "game": "OOT"
-        },
-        {
-          "id": "lost-woods-cardinal-west",
-          "name": "Lost Woods - Cardinal West",
           "game": "OOT"
         }
       ],
@@ -1443,64 +1469,75 @@
           "game": "MM"
         },
         {
+          "id": "termina-field-to-observatory",
+          "name": "Observatory",
+          "game": "MM"
+        },
+        {
           "id": "termina-field-to-southeast-grass-grotto",
           "name": "Southeast Grass Grotto",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         },
         {
           "id": "termina-field-to-hollow-tree-grotto",
           "name": "Hollow Tree Grotto",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         },
         {
           "id": "termina-field-to-southwest-grotto-by-grass",
           "name": "Southwest Grotto by Grass",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         },
         {
           "id": "termina-field-to-butterfly-grass-grotto",
           "name": "Butterfly Grass Grotto",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         },
         {
           "id": "termina-field-to-gbc-fence-grotto",
           "name": "GBC Fence Grotto",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         },
         {
           "id": "termina-field-to-northwest-boulder-grotto",
           "name": "Northwest Boulder Grotto",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         },
         {
           "id": "termina-field-to-stone-mushroom-grotto",
           "name": "Stone Mushroom Grotto",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         },
         {
           "id": "termina-field-to-ramp-grotto",
           "name": "Ramp Grotto",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         },
         {
           "id": "termina-field-to-pillar-grotto",
           "name": "Pillar Grotto",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         },
         {
           "id": "termina-field-to-observatory-grotto",
           "name": "Observatory Grotto",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         },
         {
           "id": "termina-field-to-tree-triangle-grotto",
           "name": "Tree Triangle Grotto",
-          "game": "MM"
-        },
-        {
-          "id": "termina-field-to-observatory",
-          "name": "Observatory",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         }
       ],
       "game": "MM"
@@ -1521,14 +1558,15 @@
           "game": "MM"
         },
         {
-          "id": "road-to-southern-swamp-to-open-grotto",
-          "name": "Open Grotto",
-          "game": "MM"
-        },
-        {
           "id": "road-to-southern-swamp-to-swamp-shooting-gallery",
           "name": "Swamp Shooting Gallery",
           "game": "MM"
+        },
+        {
+          "id": "road-to-southern-swamp-to-open-grotto",
+          "name": "Open Grotto",
+          "game": "MM",
+          "icon": "grotto.png"
         }
       ],
       "game": "MM"
@@ -1564,11 +1602,6 @@
           "game": "MM"
         },
         {
-          "id": "southern-swamp-to-giant-flowers-grotto",
-          "name": "Giant Flowers Grotto",
-          "game": "MM"
-        },
-        {
           "id": "southern-swamp-to-witch-potion-shop",
           "name": "Witch Potion Shop",
           "game": "MM"
@@ -1577,6 +1610,12 @@
           "id": "southern-swamp-to-tourist-hut",
           "name": "Tourist Hut",
           "game": "MM"
+        },
+        {
+          "id": "southern-swamp-to-giant-flowers-grotto",
+          "name": "Giant Flowers Grotto",
+          "game": "MM",
+          "icon": "grotto.png"
         },
         {
           "id": "southern-swamp-to-swamp-spider-house",
@@ -1608,11 +1647,6 @@
           "game": "MM"
         },
         {
-          "id": "deku-palace-to-final-right-grotto",
-          "name": "Final Right Grotto",
-          "game": "MM"
-        },
-        {
           "id": "deku-palace-to-southern-swamp-back",
           "name": "Southern Swamp Back",
           "game": "MM"
@@ -1621,6 +1655,12 @@
           "id": "deku-palace-to-southern-swamp-cliff",
           "name": "Southern Swamp Cliff",
           "game": "MM"
+        },
+                {
+          "id": "deku-palace-to-final-right-grotto",
+          "name": "Final Right Grotto",
+          "game": "MM",
+          "icon": "grotto.png"
         }
       ],
       "game": "MM"
@@ -1638,7 +1678,8 @@
         {
           "id": "woods-of-mystery-to-day-2-grotto",
           "name": "Day 2 Grotto",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         }
       ],
       "game": "MM"
@@ -1701,11 +1742,6 @@
           "game": "MM"
         },
         {
-          "id": "mountain-village-to-spring-tunnel-grotto",
-          "name": "Spring Tunnel Grotto",
-          "game": "MM"
-        },
-        {
           "id": "mountain-village-to-road-to-mountain-village",
           "name": "Road to Mountain Village",
           "game": "MM"
@@ -1719,6 +1755,12 @@
           "id": "mountain-village-to-path-to-snowhead",
           "name": "Path to Snowhead",
           "game": "MM"
+        },
+        {
+          "id": "mountain-village-to-spring-tunnel-grotto",
+          "name": "Spring Tunnel Grotto",
+          "game": "MM",
+          "icon": "grotto.png"
         }
       ],
       "game": "MM"
@@ -1746,12 +1788,14 @@
         {
           "id": "twin-islands-to-ramp-tree-grotto",
           "name": "Ramp Tree Grotto",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         },
         {
           "id": "twin-islands-to-ice-block-grotto",
           "name": "Ice Block Grotto",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         }
       ],
       "game": "MM"
@@ -1814,11 +1858,6 @@
       "color": "#66BB6A",
       "entrances": [
         {
-          "id": "path-to-snowhead-to-snowball-triangle-grotto",
-          "name": "Snowball Triangle Grotto",
-          "game": "MM"
-        },
-        {
           "id": "path-to-snowhead-to-mountain-village",
           "name": "Mountain Village",
           "game": "MM"
@@ -1827,6 +1866,12 @@
           "id": "path-to-snowhead-to-snowhead",
           "name": "Snowhead",
           "game": "MM"
+        },
+        {
+          "id": "path-to-snowhead-to-snowball-triangle-grotto",
+          "name": "Snowball Triangle Grotto",
+          "game": "MM",
+          "icon": "grotto.png"
         }
       ],
       "game": "MM"
@@ -1844,16 +1889,6 @@
         {
           "id": "great-bay-coast-to-marine-research-lab",
           "name": "Marine Research Lab",
-          "game": "MM"
-        },
-        {
-          "id": "great-bay-coast-to-fishermans-hut-grotto",
-          "name": "Fisherman's Hut Grotto",
-          "game": "MM"
-        },
-        {
-          "id": "great-bay-coast-to-hookshot-ledges-grotto",
-          "name": "Hookshot Ledges Grotto",
           "game": "MM"
         },
         {
@@ -1895,6 +1930,18 @@
           "id": "great-bay-coast-to-zora-cape-voidout",
           "name": "Zora Cape Voidout",
           "game": "MM"
+        },
+        {
+          "id": "great-bay-coast-to-fishermans-hut-grotto",
+          "name": "Fisherman's Hut Grotto",
+          "game": "MM",
+          "icon": "grotto.png"
+        },
+        {
+          "id": "great-bay-coast-to-hookshot-ledges-grotto",
+          "name": "Hookshot Ledges Grotto",
+          "game": "MM",
+          "icon": "grotto.png"
         },
         {
           "id": "great-bay-coast-to-ocean-spider-house",
@@ -1944,7 +1991,8 @@
         {
           "id": "zora-cape-to-boulder-grotto",
           "name": "Boulder Grotto",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         }
       ],
       "game": "MM"
@@ -2106,11 +2154,6 @@
           "game": "MM"
         },
         {
-          "id": "ikana-canyon-to-waterfall-grotto",
-          "name": "Waterfall Grotto",
-          "game": "MM"
-        },
-        {
           "id": "ikana-canyon-to-road-to-ikana",
           "name": "Road to Ikana",
           "game": "MM"
@@ -2129,6 +2172,12 @@
           "id": "ikana-canyon-to-waterfall-to-swamp",
           "name": "Waterfall to Swamp",
           "game": "MM"
+        },
+        {
+          "id": "ikana-canyon-to-waterfall-grotto",
+          "name": "Waterfall Grotto",
+          "game": "MM",
+          "icon": "grotto.png"
         },
         {
           "id": "ikana-canyon-to-secret-shrine",
@@ -2162,7 +2211,8 @@
         {
           "id": "road-to-ikana-to-red-boulder-grotto",
           "name": "Red Boulder Grotto",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         }
       ],
       "game": "MM"
@@ -2195,7 +2245,8 @@
         {
           "id": "ikana-graveyard-to-rock-circle-grotto",
           "name": "Rock Circle Grotto",
-          "game": "MM"
+          "game": "MM",
+          "icon": "grotto.png"
         }
       ],
       "game": "MM"
@@ -2224,12 +2275,6 @@
           "game": "MM"
         },
         {
-          "id": "ancient-castle-of-ikana-exterior-to-beneath-the-well",
-          "name": "Beneath the Well",
-          "game": "MM",
-          "icon": "big-key.png"
-        },
-        {
           "id": "ancient-castle-of-ikana-exterior-to-castle-keg-hole",
           "name": "Castle Keg Hole",
           "game": "MM"
@@ -2238,6 +2283,12 @@
           "id": "ancient-castle-of-ikana-exterior-to-castle-block-hole",
           "name": "Castle Block Hole",
           "game": "MM"
+        },
+        {
+          "id": "ancient-castle-of-ikana-exterior-to-beneath-the-well",
+          "name": "Beneath the Well",
+          "game": "MM",
+          "icon": "big-key.png"
         },
         {
           "id": "ancient-castle-of-ikana-exterior-to-ancient-castle-of-ikana",
@@ -2279,12 +2330,6 @@
       "color": "#673AB7",
       "entrances": [
         {
-          "id": "beneath-the-well-to-beneath-the-well-end",
-          "name": "Beneath the Well End",
-          "game": "MM",
-          "icon": "big-key.png"
-        },
-        {
           "id": "beneath-the-well-to-wallmaster-entrance",
           "name": "Wallmaster - Entrance",
           "game": "MM",
@@ -2301,6 +2346,12 @@
           "name": "Wallmaster - Exit",
           "game": "MM",
           "icon": "wallmaster.png"
+        },
+        {
+          "id": "beneath-the-well-to-beneath-the-well-end",
+          "name": "Beneath the Well End",
+          "game": "MM",
+          "icon": "big-key.png"
         }
       ],
       "game": "MM"
