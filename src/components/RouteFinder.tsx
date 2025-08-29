@@ -1,21 +1,10 @@
 import React, { useState } from 'react';
 import FilterableSelect from './FilterableSelect';
 import { useTrackerContext } from '../context/TrackerContext';
+import type { Route } from '../utils/RouteCalculator';
 import locationsData from '../data/locations.json';
 import type { LocationsData } from '../types';
 
-// Simple route types for this component
-interface RouteStep {
-  fromEntrance: string;
-  toDestination: string;
-  areaName: string;
-}
-
-interface Route {
-  steps: RouteStep[];
-  totalSteps: number;
-  isComplete: boolean;
-}
 
 interface RouteFinderProps {
   isDarkMode: boolean;
@@ -28,82 +17,108 @@ const RouteFinder: React.FC<RouteFinderProps> = ({ }) => {
   const [route, setRoute] = useState<Route | null>(null);
   const [hasCalculated, setHasCalculated] = useState(false);
 
-  // Simple route finding: check if there's a direct connection
-  const findSimpleRoute = (start: string, end: string): { found: boolean, steps: string[] } => {
-    if (!start || !end || start === end) {
-      return { found: false, steps: [] };
+  // Build a simple location-to-location routing map
+  const findRouteDirectly = (startLocation: string, endLocation: string): Route => {
+    if (!startLocation || !endLocation || startLocation === endLocation) {
+      return {
+        steps: [],
+        totalSteps: startLocation === endLocation ? 0 : -1,
+        isComplete: startLocation === endLocation
+      };
     }
     
-    console.log('Looking for route from', start, 'to', end);
-    console.log('Available connections:', connections);
-    
     const areas = (locationsData as LocationsData).areas;
-    const steps: string[] = [];
+    const visited = new Set<string>();
+    const queue: Array<{location: string, path: Array<{from: string, to: string, entrance: string}>}> = [];
     
-    // Find entrances that lead to the start location (where user currently is)
-    // Then see if any of those entrances have connections that lead to the end location
-    for (const [entranceId, destination] of Object.entries(connections)) {
-      if (destination === start) {
-        console.log(`Found entrance ${entranceId} that leads to start location ${start}`);
+    // Start BFS from the start location
+    queue.push({location: startLocation, path: []});
+    visited.add(startLocation);
+    
+    while (queue.length > 0) {
+      const current = queue.shift()!;
+      
+      if (current.location === endLocation) {
+        // Found the destination, convert path to route steps
+        const steps = current.path.map(step => ({
+          fromEntrance: step.entrance,
+          toDestination: step.to,
+          areaName: step.from
+        }));
         
-        // Now look for any entrance in the same area that leads to the end location
-        const entranceArea = areas.find(area => 
-          area.entrances.some(e => e.id === entranceId)
-        );
-        
-        if (entranceArea) {
-          for (const otherEntrance of entranceArea.entrances) {
-            const otherDestination = connections[otherEntrance.id];
-            if (otherDestination === end) {
-              steps.push(`From ${entranceArea.name}, go to ${end}`);
-              return { found: true, steps };
-            }
+        return {
+          steps,
+          totalSteps: steps.length,
+          isComplete: true
+        };
+      }
+      
+      // Find all possible next locations from current location
+      // Look for areas with the current location name
+      const currentArea = areas.find(area => area.name === current.location);
+      if (currentArea) {
+        // Check each entrance in this area
+        for (const entrance of currentArea.entrances) {
+          const destination = connections[entrance.id];
+          if (destination && destination.trim() !== '' && !visited.has(destination)) {
+            visited.add(destination);
+            const newPath = [...current.path, {
+              from: current.location,
+              to: destination,
+              entrance: `${currentArea.name} - ${entrance.name}`
+            }];
+            queue.push({location: destination, path: newPath});
           }
         }
       }
       
-      if (destination === end) {
-        console.log(`Found direct connection: ${entranceId} leads to ${end}`);
-        // Find which area this entrance is in
-        const entranceArea = areas.find(area => 
-          area.entrances.some(e => e.id === entranceId)
-        );
-        if (entranceArea) {
-          steps.push(`Go to ${entranceArea.name} and use exit to ${end}`);
-          return { found: true, steps };
+      // Also check if current location can be reached from other areas
+      // (in case current.location is a destination name, not an area name)
+      for (const [entranceId, destination] of Object.entries(connections)) {
+        if (destination === current.location) {
+          // Find the area this entrance belongs to
+          const sourceArea = areas.find(area => 
+            area.entrances.some(e => e.id === entranceId)
+          );
+          if (sourceArea && !visited.has(sourceArea.name)) {
+            visited.add(sourceArea.name);
+            // This creates a reverse path - we can go back to the source area
+            const entrance = sourceArea.entrances.find(e => e.id === entranceId);
+            if (entrance) {
+              const newPath = [...current.path, {
+                from: current.location,
+                to: sourceArea.name,
+                entrance: `${current.location} - Reverse to ${sourceArea.name}`
+              }];
+              queue.push({location: sourceArea.name, path: newPath});
+            }
+          }
         }
       }
     }
     
-    return { found: false, steps: [] };
+    // No route found
+    return {
+      steps: [],
+      totalSteps: 0,
+      isComplete: false
+    };
   };
 
   const handleFindRoute = () => {
-    console.log('Finding route from:', startEntrance, 'to:', endEntrance);
-    
-    const result = findSimpleRoute(startEntrance, endEntrance);
-    console.log('Route result:', result);
-    
-    if (result.found) {
-      // Convert simple steps to Route format
-      const routeSteps = result.steps.map(step => ({
-        fromEntrance: 'Current Location',
-        toDestination: step,
-        areaName: 'Various'
-      }));
-      
-      setRoute({
-        steps: routeSteps,
-        totalSteps: routeSteps.length,
-        isComplete: true
-      });
-    } else {
+    if (!startEntrance || !endEntrance) {
       setRoute({
         steps: [],
         totalSteps: 0,
         isComplete: false
       });
+      setHasCalculated(true);
+      return;
     }
+    
+    // Use direct location-based routing
+    const calculatedRoute = findRouteDirectly(startEntrance, endEntrance);
+    setRoute(calculatedRoute);
     
     setHasCalculated(true);
   };
