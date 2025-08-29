@@ -21,7 +21,7 @@ const TrackerHeader: React.FC<TrackerHeaderProps> = ({ onToggleTheme, isDarkMode
       connections,
       areaOrder,
       exportDate: new Date().toISOString(),
-      version: '1.0.0'
+      version: VERSION
     };
     
     const dataStr = JSON.stringify(exportData, null, 2);

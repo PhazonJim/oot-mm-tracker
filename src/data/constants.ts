@@ -1,5 +1,5 @@
 export const GAME_TITLE = "OoT/MM Tracker";
-export const VERSION = "1.0.0";
+export const VERSION = __APP_VERSION__ || "0.0.0";
 
 // Area types mapping
 export const AREA_TYPES: Record<string, 'OVERWORLD' | 'DUNGEON' | 'TOWN' | 'SPECIAL'> = {
