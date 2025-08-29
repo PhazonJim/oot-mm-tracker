@@ -682,6 +682,12 @@
           "name": "Rock Circle Grotto",
           "defaultDestination": "",
           "game": "OOT"
+        },
+        {
+          "id": "death-mountain-crater-to-fire-temple",
+          "name": "Fire Temple",
+          "defaultDestination": "",
+          "game": "OOT"
         }
       ],
       "game": "OOT"
@@ -1135,8 +1141,8 @@
       "game": "OOT"
     },
     {
-      "id": "dungeons",
-      "name": "Dungeons",
+      "id": "dungeons-oot",
+      "name": "Dungeons - OOT",
       "color": "#887BE8",
       "entrances": [
         {
@@ -1160,12 +1166,6 @@
         {
           "id": "forest-temple",
           "name": "Forest Temple",
-          "defaultDestination": "",
-          "game": "OOT"
-        },
-        {
-          "id": "fire-temple",
-          "name": "Fire Temple",
           "defaultDestination": "",
           "game": "OOT"
         },
@@ -2467,84 +2467,84 @@
       "game": "MM"
     },
     {
-      "id": "dungeons",
-      "name": "Dungeons",
+      "id": "dungeons-mm",
+      "name": "Dungeons - MM",
       "color": "#673AB7",
       "entrances": [
         {
-          "id": "dungeons-to-woodfall-temple",
+          "id": "dungeons-mm-to-woodfall-temple",
           "name": "Woodfall Temple",
           "defaultDestination": "",
           "game": "MM"
         },
         {
-          "id": "dungeons-to-snowhead-temple",
+          "id": "dungeons-mm-to-snowhead-temple",
           "name": "Snowhead Temple",
           "defaultDestination": "",
           "game": "MM"
         },
         {
-          "id": "dungeons-to-great-bay-temple",
+          "id": "dungeons-mm-to-great-bay-temple",
           "name": "Great Bay Temple",
           "defaultDestination": "",
           "game": "MM"
         },
         {
-          "id": "dungeons-to-stone-tower-temple",
+          "id": "dungeons-mm-to-stone-tower-temple",
           "name": "Stone Tower Temple",
           "defaultDestination": "",
           "game": "MM"
         },
         {
-          "id": "dungeons-to-inverted-stone-tower-temple",
+          "id": "dungeons-mm-to-inverted-stone-tower-temple",
           "name": "Inverted Stone Tower Temple",
           "defaultDestination": "",
           "game": "MM"
         },
         {
-          "id": "dungeons-to-swamp-spider-house",
+          "id": "dungeons-mm-to-swamp-spider-house",
           "name": "Swamp Spider House",
           "defaultDestination": "",
           "game": "MM"
         },
         {
-          "id": "dungeons-to-ocean-spider-house",
+          "id": "dungeons-mm-to-ocean-spider-house",
           "name": "Ocean Spider House",
           "defaultDestination": "",
           "game": "MM"
         },
         {
-          "id": "dungeons-to-pirates-fortress",
+          "id": "dungeons-mm-to-pirates-fortress",
           "name": "Pirates' Fortress",
           "defaultDestination": "",
           "game": "MM"
         },
         {
-          "id": "dungeons-to-beneath-the-well",
+          "id": "dungeons-mm-to-beneath-the-well",
           "name": "Beneath the Well",
           "defaultDestination": "",
           "game": "MM"
         },
         {
-          "id": "dungeons-to-beneath-the-well-end",
+          "id": "dungeons-mm-to-beneath-the-well-end",
           "name": "Beneath the Well End",
           "defaultDestination": "",
           "game": "MM"
         },
         {
-          "id": "dungeons-to-ancient-castle-of-ikana",
+          "id": "dungeons-mm-to-ancient-castle-of-ikana",
           "name": "Ancient Castle of Ikana",
           "defaultDestination": "",
           "game": "MM"
         },
         {
-          "id": "dungeons-to-secret-shrine",
+          "id": "dungeons-mm-to-secret-shrine",
           "name": "Secret Shrine",
           "defaultDestination": "",
           "game": "MM"
         },
         {
-          "id": "dungeons-to-clock-tower-roof",
+          "id": "dungeons-mm-to-clock-tower-roof",
           "name": "Clock Tower Roof",
           "defaultDestination": "",
           "game": "MM"
