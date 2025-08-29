@@ -11,7 +11,7 @@ import { AREA_TYPES } from './data/constants';
 import type { LocationsData } from './types';
 
 const TrackerContent: React.FC = () => {
-  const { areaOrder, updateAreaOrder } = useTrackerContext();
+  const { areaOrder, updateAreaOrder, connections } = useTrackerContext();
   const [draggedItem, setDraggedItem] = useState<number | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [filterType, setFilterType] = useState<'all' | 'overworld' | 'town' | 'special'>('all');
@@ -49,9 +49,19 @@ const TrackerContent: React.FC = () => {
           return true;
         }
         // Search in entrance names
-        return area.entrances.some(entrance => 
+        const matchesEntranceName = area.entrances.some(entrance => 
           entrance.name.toLowerCase().includes(lowerSearchTerm)
         );
+        if (matchesEntranceName) {
+          return true;
+        }
+        // Search in selected destinations (connections)
+        const matchesSelectedDestination = area.entrances.some(entrance => {
+          const selectedDestination = connections[entrance.id];
+          return selectedDestination && selectedDestination.toLowerCase().includes(lowerSearchTerm);
+        });
+        
+        return matchesSelectedDestination;
       });
     }
     
@@ -61,7 +71,7 @@ const TrackerContent: React.FC = () => {
       const bIndex = areaOrder.indexOf(b.id);
       return aIndex - bIndex;
     });
-  }, [areas, searchTerm, filterType, gameFilter, areaOrder]);
+  }, [areas, searchTerm, filterType, gameFilter, areaOrder, connections]);
   
   const handleDragStart = useCallback((e: React.DragEvent, index: number) => {
     setDraggedItem(index);
