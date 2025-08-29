@@ -412,6 +412,14 @@ body {
   border-color: var(--button-background);
 }
 
+.filter-separator {
+  width: 1px;
+  height: 20px;
+  background-color: var(--card-border);
+  margin: 0 0.5rem;
+  align-self: center;
+}
+
 @media (min-width: 768px) {
   .search-filter {
     flex-direction: row;

@@ -8,19 +8,23 @@
         {
           "id": "castle-gate-to-hyrule-field",
           "name": "Hyrule Field",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "castle-gate-to-market",
           "name": "Market",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "castle-gate-to-guard-house",
           "name": "Guard House",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "market",
@@ -30,64 +34,77 @@
         {
           "id": "market-to-castle-gate",
           "name": "Castle Gate",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "market-to-temple-of-time-exterior",
           "name": "Temple of Time Exterior",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "market-to-hyrule-castle",
           "name": "Hyrule Castle",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "market-to-mask-shop",
           "name": "Mask Shop",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "market-to-child-bazaar",
           "name": "Child Bazaar",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "market-to-child-potion-shop",
           "name": "Child Potion Shop",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "market-to-child-shooting-gallery",
           "name": "Child Shooting Gallery",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "market-to-bombchu-bowling",
           "name": "Bombchu Bowling",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "market-to-market-chest-game",
           "name": "Market Chest Game",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "market-to-bombchu-shop",
           "name": "Bombchu Shop",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "market-to-alley-house",
           "name": "Alley House",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "market-to-richards-house",
           "name": "Richard's House",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "temple-of-time-exterior",
@@ -97,14 +114,17 @@
         {
           "id": "temple-of-time-exterior-to-market",
           "name": "Market",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "temple-of-time-exterior-to-temple-of-time",
           "name": "Temple of Time",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "lon-lon-ranch",
@@ -114,29 +134,35 @@
         {
           "id": "lon-lon-ranch-to-hyrule-field",
           "name": "Hyrule Field",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lon-lon-ranch-to-talons-house",
           "name": "Talon's House",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lon-lon-ranch-to-stables",
           "name": "Stables",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lon-lon-ranch-to-silo",
           "name": "Silo",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lon-lon-ranch-to-open-grotto",
           "name": "Open Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "hyrule-field",
@@ -146,79 +172,95 @@
         {
           "id": "hyrule-field-to-castle-gate",
           "name": "Castle Gate",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-field-to-lon-lon-ranch",
           "name": "Lon Lon Ranch",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-field-to-bridge-in-lost-woods",
           "name": "Bridge in Lost Woods",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-field-to-kakariko-village",
           "name": "Kakariko Village",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-field-to-zoras-river",
           "name": "Zora's River",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-field-to-lake-hylia",
           "name": "Lake Hylia",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-field-to-gerudo-valley",
           "name": "Gerudo Valley",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-field-to-boulder-grotto-by-market",
           "name": "Boulder Grotto by Market",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-field-to-tree-grotto-by-kak",
           "name": "Tree Grotto by Kak",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-field-to-forest-grotto",
           "name": "Forest Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-field-to-open-grotto",
           "name": "Open Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-field-to-fence-grotto",
           "name": "Fence Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-field-to-rock-circle-grotto",
           "name": "Rock Circle Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-field-to-lone-tree-grotto",
           "name": "Lone Tree Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-field-to-river-grotto",
           "name": "River Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "kokiri-forest",
@@ -228,49 +270,59 @@
         {
           "id": "kokiri-forest-to-bridge-in-lost-woods",
           "name": "Bridge in Lost Woods",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kokiri-forest-to-lost-woods",
           "name": "Lost Woods",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kokiri-forest-to-links-house",
           "name": "Link's House",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kokiri-forest-to-sarias-house",
           "name": "Saria's House",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kokiri-forest-to-twins-house",
           "name": "Twins' House",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kokiri-forest-to-kokiri-shop",
           "name": "Kokiri Shop",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kokiri-forest-to-midos-house",
           "name": "Mido's House",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kokiri-forest-to-know-it-alls-house",
           "name": "Know-it-Alls' House",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kokiri-forest-to-storms-grotto",
           "name": "Storms Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "lost-woods",
@@ -280,49 +332,59 @@
         {
           "id": "lost-woods-to-bridge-to-kokiri-forest",
           "name": "Bridge to Kokiri Forest",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lost-woods-to-bridge-to-hyrule-field",
           "name": "Bridge to Hyrule Field",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lost-woods-to-kokiri-forest",
           "name": "Kokiri Forest",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lost-woods-to-goron-city-shortcut",
           "name": "Goron City Shortcut",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lost-woods-to-zoras-river-shortcut",
           "name": "Zora's River Shortcut",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lost-woods-to-sacred-forest-meadow",
           "name": "Sacred Forest Meadow",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lost-woods-to-grotto-by-gc-shortcut",
           "name": "Grotto by GC Shortcut",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lost-woods-to-grass-grotto",
           "name": "Grass Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lost-woods-to-grotto-by-sfm",
           "name": "Grotto by SFM",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "sacred-forest-meadow",
@@ -332,24 +394,29 @@
         {
           "id": "sacred-forest-meadow-to-lost-woods",
           "name": "Lost Woods",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "sacred-forest-meadow-to-entrance-grotto",
           "name": "Entrance Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "sacred-forest-meadow-to-maze-grotto",
           "name": "Maze Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "sacred-forest-meadow-to-storms-grotto",
           "name": "Storms Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "kakariko-village",
@@ -359,79 +426,95 @@
         {
           "id": "kakariko-village-to-hyrule-field",
           "name": "Hyrule Field",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-village-to-death-mountain-trail",
           "name": "Death Mountain Trail",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-village-to-kakariko-graveyard",
           "name": "Kakariko Graveyard",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-village-to-adult-bazaar",
           "name": "Adult Bazaar",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-village-to-adult-potion-shop-front",
           "name": "Adult Potion Shop Front",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-village-to-adult-potion-shop-back",
           "name": "Adult Potion Shop Back",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-village-to-granny-potion-shop",
           "name": "Granny Potion Shop",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-village-to-carpenters-house",
           "name": "Carpenter's House",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-village-to-house-of-skulltula",
           "name": "House of Skulltula",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-village-to-impas-house",
           "name": "Impa's House",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-village-to-impas-cow",
           "name": "Impa's Cow",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-village-to-adult-shooting-gallery",
           "name": "Adult Shooting Gallery",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-village-to-windmill",
           "name": "Windmill",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-village-to-center-grotto",
           "name": "Center Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-village-to-open-grotto",
           "name": "Open Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "kakariko-graveyard",
@@ -441,34 +524,41 @@
         {
           "id": "kakariko-graveyard-to-kakariko-village",
           "name": "Kakariko Village",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-graveyard-to-dampes-hut",
           "name": "Dampe's Hut",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-graveyard-to-middle-grave",
           "name": "Middle Grave",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-graveyard-to-right-grave",
           "name": "Right Grave",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-graveyard-to-left-grave",
           "name": "Left Grave",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "kakariko-graveyard-to-royal-family-tomb",
           "name": "Royal Family Tomb",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "death-mountain-trail",
@@ -478,39 +568,47 @@
         {
           "id": "death-mountain-trail-to-kakariko-village",
           "name": "Kakariko Village",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "death-mountain-trail-to-goron-city",
           "name": "Goron City",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "death-mountain-trail-to-death-mountain-crater",
           "name": "Death Mountain Crater",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "death-mountain-trail-to-great-fairy-of-power",
           "name": "Great Fairy of Power",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "death-mountain-trail-to-boulder-grotto",
           "name": "Boulder Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "death-mountain-trail-to-storms-grotto",
           "name": "Storms Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "death-mountain-trail-to-owl-flight-to-impas-house",
           "name": "Owl Flight to Impa's House",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "goron-city",
@@ -520,29 +618,35 @@
         {
           "id": "goron-city-to-death-mountain-trail",
           "name": "Death Mountain Trail",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "goron-city-to-lost-woods-shortcut",
           "name": "Lost Woods Shortcut",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "goron-city-to-death-mountain-crater",
           "name": "Death Mountain Crater",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "goron-city-to-goron-city-shop",
           "name": "Goron City Shop",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "goron-city-to-lava-room-grotto",
           "name": "Lava Room Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "death-mountain-crater",
@@ -552,29 +656,35 @@
         {
           "id": "death-mountain-crater-to-death-mountain-trail",
           "name": "Death Mountain Trail",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "death-mountain-crater-to-goron-city",
           "name": "Goron City",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "death-mountain-crater-to-great-fairy-of-wisdom",
           "name": "Great Fairy of Wisdom",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "death-mountain-crater-to-red-boulder-grotto",
           "name": "Red Boulder Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "death-mountain-crater-to-rock-circle-grotto",
           "name": "Rock Circle Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "zoras-river",
@@ -584,34 +694,41 @@
         {
           "id": "zoras-river-to-hyrule-field",
           "name": "Hyrule Field",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "zoras-river-to-zoras-domain",
           "name": "Zora's Domain",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "zoras-river-to-lost-woods-shortcut",
           "name": "Lost Woods Shortcut",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "zoras-river-to-storms-grotto",
           "name": "Storms Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "zoras-river-to-open-grotto",
           "name": "Open Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "zoras-river-to-rock-circle-grotto",
           "name": "Rock Circle Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "zoras-domain",
@@ -621,29 +738,35 @@
         {
           "id": "zoras-domain-to-zoras-river",
           "name": "Zora's River",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "zoras-domain-to-lake-hylia-shortcut",
           "name": "Lake Hylia Shortcut",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "zoras-domain-to-zoras-fountain",
           "name": "Zora's Fountain",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "zoras-domain-to-zoras-domain-shop",
           "name": "Zora's Domain Shop",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "zoras-domain-to-storms-grotto",
           "name": "Storms Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "zoras-fountain",
@@ -653,14 +776,17 @@
         {
           "id": "zoras-fountain-to-zoras-domain",
           "name": "Zora's Domain",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "zoras-fountain-to-great-fairy-of-magic-farore",
           "name": "Great Fairy of Magic (Farore)",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "lake-hylia",
@@ -670,34 +796,41 @@
         {
           "id": "lake-hylia-to-hyrule-field",
           "name": "Hyrule Field",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lake-hylia-to-zoras-domain-shortcut",
           "name": "Zora's Domain Shortcut",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lake-hylia-to-laboratory",
           "name": "Laboratory",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lake-hylia-to-fishing-pond",
           "name": "Fishing Pond",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lake-hylia-to-scrub-grave",
           "name": "Scrub Grave",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "lake-hylia-to-owl-flight-to-hf-drawbridge",
           "name": "Owl Flight to HF Drawbridge",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "gerudo-valley",
@@ -707,34 +840,41 @@
         {
           "id": "gerudo-valley-to-hyrule-field",
           "name": "Hyrule Field",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "gerudo-valley-to-gerudo-fortress",
           "name": "Gerudo Fortress",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "gerudo-valley-to-carpenters-tent",
           "name": "Carpenter's Tent",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "gerudo-valley-to-silver-boulder-grotto",
           "name": "Silver Boulder Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "gerudo-valley-to-storms-grotto",
           "name": "Storms Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "gerudo-valley-to-waterfall-to-lake-hylia",
           "name": "Waterfall to Lake Hylia",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "gerudo-fortress",
@@ -744,19 +884,23 @@
         {
           "id": "gerudo-fortress-to-gerudo-valley",
           "name": "Gerudo Valley",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "gerudo-fortress-to-haunted-wastelands",
           "name": "Haunted Wastelands",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "gerudo-fortress-to-storms-grotto",
           "name": "Storms Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "haunted-wastelands",
@@ -766,14 +910,17 @@
         {
           "id": "haunted-wastelands-to-gerudo-fortress",
           "name": "Gerudo Fortress",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "haunted-wastelands-to-desert-colossus",
           "name": "Desert Colossus",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "desert-colossus",
@@ -783,19 +930,23 @@
         {
           "id": "desert-colossus-to-haunted-wastelands",
           "name": "Haunted Wastelands",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "desert-colossus-to-great-fairy-of-magic-nayru",
           "name": "Great Fairy of Magic (Nayru)",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "desert-colossus-to-silver-boulder-grotto",
           "name": "Silver Boulder Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "hyrule-castle",
@@ -805,19 +956,23 @@
         {
           "id": "hyrule-castle-to-great-fairy-of-magic-din",
           "name": "Great Fairy of Magic (Din)",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-castle-to-storms-grotto",
           "name": "Storms Grotto",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "hyrule-castle-to-market",
           "name": "Market",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
     },
     {
       "id": "ganons-castle-exterior",
@@ -827,14 +982,1707 @@
         {
           "id": "ganons-castle-exterior-to-great-fairy-of-courage",
           "name": "Great Fairy of Courage",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         },
         {
           "id": "ganons-castle-exterior-to-market",
           "name": "Market",
-          "defaultDestination": ""
+          "defaultDestination": "",
+          "game": "OOT"
         }
-      ]
+      ],
+      "game": "OOT"
+    },
+    {
+      "id": "warp-songs",
+      "name": "Warp Songs",
+      "color": "#7BDBE8",
+      "entrances": [
+        {
+          "id": "prelude-of-light",
+          "name": "Prelude of Light",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "minuet-of-forest",
+          "name": "Minuet of Forest",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "bolero-of-fire",
+          "name": "Bolero of Fire",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "serenade-of-water",
+          "name": "Serenade of Water",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "requiem-of-spirit",
+          "name": "Requiem of Spirit",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "nocturne-of-shadow",
+          "name": "Nocturne of Shadow",
+          "defaultDestination": "",
+          "game": "OOT"
+        }
+      ],
+      "game": "OOT"
+    },
+    {
+      "id": "spawns",
+      "name": "Spawns",
+      "color": "#7BA5E8",
+      "entrances": [
+        {
+          "id": "child-spawn",
+          "name": "Child Spawn",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "adult-spawn",
+          "name": "Adult Spawn",
+          "defaultDestination": "",
+          "game": "OOT"
+        }
+      ],
+      "game": "OOT"
+    },
+    {
+      "id": "overworld-one-ways",
+      "name": "Overworld One-ways",
+      "color": "#E8887B",
+      "entrances": [
+        {
+          "id": "lost-woods-cardinal-north",
+          "name": "Lost Woods - Cardinal North",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "lost-woods-cardinal-south",
+          "name": "Lost Woods - Cardinal South",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "lost-woods-cardinal-east",
+          "name": "Lost Woods - Cardinal East",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "lost-woods-cardinal-west",
+          "name": "Lost Woods - Cardinal West",
+          "defaultDestination": "",
+          "game": "OOT"
+        }
+      ],
+      "game": "OOT"
+    },
+    {
+      "id": "wallmasters-oot",
+      "name": "Wallmasters OOT",
+      "color": "#DBE87B",
+      "entrances": [
+        {
+          "id": "forest-temple-west-hall",
+          "name": "Forest Temple - West Hall",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "forest-temple-east-hall",
+          "name": "Forest Temple - East Hall",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "shadow-temple-guillotine-room",
+          "name": "Shadow Temple - Guillotine Room",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "[vanilla]-spirit-temple-child-lower",
+          "name": "[Vanilla] Spirit Temple - Child Lower",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "[vanilla]-spirit-temple-adult-climb",
+          "name": "[Vanilla] Spirit Temple - Adult Climb",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "[mq]-spirit-temple-sun-blocks",
+          "name": "[MQ] Spirit Temple - Sun Blocks",
+          "defaultDestination": "",
+          "game": "OOT"
+        }
+      ],
+      "game": "OOT"
+    },
+    {
+      "id": "dungeons",
+      "name": "Dungeons",
+      "color": "#887BE8",
+      "entrances": [
+        {
+          "id": "deku-tree",
+          "name": "Deku Tree",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "dodongos-cavern",
+          "name": "Dodongo's Cavern",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "jabu-jabus-belly",
+          "name": "Jabu Jabu's Belly",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "forest-temple",
+          "name": "Forest Temple",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "fire-temple",
+          "name": "Fire Temple",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "water-temple",
+          "name": "Water Temple",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "shadow-temple",
+          "name": "Shadow Temple",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "spirit-temple",
+          "name": "Spirit Temple",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "ice-cavern",
+          "name": "Ice Cavern",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "bottom-of-the-well",
+          "name": "Bottom of the Well",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "gerudo-training-grounds",
+          "name": "Gerudo Training Grounds",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "ganons-castle",
+          "name": "Ganon's Castle",
+          "defaultDestination": "",
+          "game": "OOT"
+        },
+        {
+          "id": "ganons-tower",
+          "name": "Ganon's Tower",
+          "defaultDestination": "",
+          "game": "OOT"
+        }
+      ],
+      "game": "OOT"
+    },
+    {
+      "id": "north-clock-town",
+      "name": "North Clock Town",
+      "color": "#E91E63",
+      "entrances": [
+        {
+          "id": "north-clock-town-to-town-great-fairy",
+          "name": "Town Great Fairy",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "north-clock-town-to-deku-playground",
+          "name": "Deku Playground",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "north-clock-town-to-termina-field",
+          "name": "Termina Field",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "north-clock-town-to-upper-east-clock-town",
+          "name": "Upper East Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "north-clock-town-to-south-clock-town",
+          "name": "South Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "east-clock-town",
+      "name": "East Clock Town",
+      "color": "#9C27B0",
+      "entrances": [
+        {
+          "id": "east-clock-town-to-mayors-office",
+          "name": "Mayor's Office",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "east-clock-town-to-bombers-hideout",
+          "name": "Bombers' Hideout",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "east-clock-town-to-milk-bar",
+          "name": "Milk Bar",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "east-clock-town-to-honey-darling",
+          "name": "Honey & Darling",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "east-clock-town-to-town-shooting-gallery",
+          "name": "Town Shooting Gallery",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "east-clock-town-to-town-chest-game",
+          "name": "Town Chest Game",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "east-clock-town-to-stock-pot-inn",
+          "name": "Stock Pot Inn",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "east-clock-town-to-stock-pot-inn-roof",
+          "name": "Stock Pot Inn Roof",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "east-clock-town-to-termina-field",
+          "name": "Termina Field",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "east-clock-town-to-lower-south-clock-town",
+          "name": "Lower South Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "east-clock-town-to-upper-south-clock-town",
+          "name": "Upper South Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "east-clock-town-to-north-clock-town",
+          "name": "North Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "west-clock-town",
+      "name": "West Clock Town",
+      "color": "#673AB7",
+      "entrances": [
+        {
+          "id": "west-clock-town-to-lottery",
+          "name": "Lottery",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "west-clock-town-to-post-office",
+          "name": "Post Office",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "west-clock-town-to-swordsmans-school",
+          "name": "Swordsman's School",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "west-clock-town-to-bomb-shop",
+          "name": "Bomb Shop",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "west-clock-town-to-trading-post",
+          "name": "Trading Post",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "west-clock-town-to-curiosity-shop",
+          "name": "Curiosity Shop",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "west-clock-town-to-termina-field",
+          "name": "Termina Field",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "west-clock-town-to-upper-south-clock-town",
+          "name": "Upper South Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "west-clock-town-to-lower-south-clock-town",
+          "name": "Lower South Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "south-clock-town",
+      "name": "South Clock Town",
+      "color": "#3F51B5",
+      "entrances": [
+        {
+          "id": "south-clock-town-to-clock-tower",
+          "name": "Clock Tower",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "south-clock-town-to-termina-field",
+          "name": "Termina Field",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "south-clock-town-to-laundry-pool",
+          "name": "Laundry Pool",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "south-clock-town-to-lower-west-clock-town",
+          "name": "Lower West Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "south-clock-town-to-upper-west-clock-town",
+          "name": "Upper West Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "south-clock-town-to-north-clock-town",
+          "name": "North Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "south-clock-town-to-middle-east-clock-town",
+          "name": "Middle East Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "south-clock-town-to-lower-east-clock-town",
+          "name": "Lower East Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "laundry-pool",
+      "name": "Laundry Pool",
+      "color": "#009688",
+      "entrances": [
+        {
+          "id": "laundry-pool-to-kafeis-hideout",
+          "name": "Kafei's Hideout",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "laundry-pool-to-south-clock-town",
+          "name": "South Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "romani-ranch",
+      "name": "Romani Ranch",
+      "color": "#4CAF50",
+      "entrances": [
+        {
+          "id": "romani-ranch-to-barn",
+          "name": "Barn",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "romani-ranch-to-mamas-house",
+          "name": "Mama's House",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "romani-ranch-to-doggy-racetrack",
+          "name": "Doggy Racetrack",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "romani-ranch-to-cucco-shack",
+          "name": "Cucco Shack",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "romani-ranch-to-milk-road",
+          "name": "Milk Road",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "milk-road",
+      "name": "Milk Road",
+      "color": "#8BC34A",
+      "entrances": [
+        {
+          "id": "milk-road-to-termina-field",
+          "name": "Termina Field",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "milk-road-to-lower-gorman-track",
+          "name": "Lower Gorman Track",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "milk-road-to-upper-gorman-track",
+          "name": "Upper Gorman Track",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "milk-road-to-romani-ranch",
+          "name": "Romani Ranch",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "gorman-track",
+      "name": "Gorman Track",
+      "color": "#CDDC39",
+      "entrances": [
+        {
+          "id": "gorman-track-to-lower-milk-road",
+          "name": "Lower Milk Road",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "gorman-track-to-upper-milk-road",
+          "name": "Upper Milk Road",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "termina-field",
+      "name": "Termina Field",
+      "color": "#FFEB3B",
+      "entrances": [
+        {
+          "id": "termina-field-to-north-clock-town",
+          "name": "North Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-east-clock-town",
+          "name": "East Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-west-clock-town",
+          "name": "West Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-south-clock-town",
+          "name": "South Clock Town",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-milk-road",
+          "name": "Milk Road",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-road-to-southern-swamp",
+          "name": "Road to Southern Swamp",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-road-to-mountain-village",
+          "name": "Road to Mountain Village",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-great-bay-coast",
+          "name": "Great Bay Coast",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-road-to-ikana",
+          "name": "Road to Ikana",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-southeast-grass-grotto",
+          "name": "Southeast Grass Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-hollow-tree-grotto",
+          "name": "Hollow Tree Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-southwest-grotto-by-grass",
+          "name": "Southwest Grotto by Grass",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-butterfly-grass-grotto",
+          "name": "Butterfly Grass Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-gbc-fence-grotto",
+          "name": "GBC Fence Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-northwest-boulder-grotto",
+          "name": "Northwest Boulder Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-stone-mushroom-grotto",
+          "name": "Stone Mushroom Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-ramp-grotto",
+          "name": "Ramp Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-pillar-grotto",
+          "name": "Pillar Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-observatory-grotto",
+          "name": "Observatory Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-tree-triangle-grotto",
+          "name": "Tree Triangle Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "termina-field-to-observatory",
+          "name": "Observatory",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "road-to-southern-swamp",
+      "name": "Road to Southern Swamp",
+      "color": "#FFC107",
+      "entrances": [
+        {
+          "id": "road-to-southern-swamp-to-termina-field",
+          "name": "Termina Field",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "road-to-southern-swamp-to-southern-swamp",
+          "name": "Southern Swamp",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "road-to-southern-swamp-to-open-grotto",
+          "name": "Open Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "road-to-southern-swamp-to-swamp-shooting-gallery",
+          "name": "Swamp Shooting Gallery",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "southern-swamp",
+      "name": "Southern Swamp",
+      "color": "#FF9800",
+      "entrances": [
+        {
+          "id": "southern-swamp-to-road-to-southern-swamp",
+          "name": "Road to Southern Swamp",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "southern-swamp-to-woods-of-mystery",
+          "name": "Woods of Mystery",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "southern-swamp-to-deku-palace-front",
+          "name": "Deku Palace Front",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "southern-swamp-to-deku-palace-cliff",
+          "name": "Deku Palace Cliff",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "southern-swamp-to-woodfall",
+          "name": "Woodfall",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "southern-swamp-to-giant-flowers-grotto",
+          "name": "Giant Flowers Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "southern-swamp-to-witch-potion-shop",
+          "name": "Witch Potion Shop",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "southern-swamp-to-tourist-hut",
+          "name": "Tourist Hut",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "deku-palace",
+      "name": "Deku Palace",
+      "color": "#FF5722",
+      "entrances": [
+        {
+          "id": "deku-palace-to-royal-chamber-main",
+          "name": "Royal Chamber Main",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "deku-palace-to-royal-chamber-cage",
+          "name": "Royal Chamber Cage",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "deku-palace-to-deku-shrine",
+          "name": "Deku Shrine",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "deku-palace-to-final-right-grotto",
+          "name": "Final Right Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "deku-palace-to-southern-swamp-back",
+          "name": "Southern Swamp Back",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "deku-palace-to-southern-swamp-cliff",
+          "name": "Southern Swamp Cliff",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "woods-of-mystery",
+      "name": "Woods of Mystery",
+      "color": "#795548",
+      "entrances": [
+        {
+          "id": "woods-of-mystery-to-southern-swamp",
+          "name": "Southern Swamp",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "woods-of-mystery-to-day-2-grotto",
+          "name": "Day 2 Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "woodfall",
+      "name": "Woodfall",
+      "color": "#607D8B",
+      "entrances": [
+        {
+          "id": "woodfall-to-southern-swamp",
+          "name": "Southern Swamp",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "woodfall-to-woodfall-great-fairy",
+          "name": "Woodfall Great Fairy",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "road-to-mountain-village",
+      "name": "Road to Mountain Village",
+      "color": "#F44336",
+      "entrances": [
+        {
+          "id": "road-to-mountain-village-to-termina-field",
+          "name": "Termina Field",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "road-to-mountain-village-to-mountain-village",
+          "name": "Mountain Village",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "mountain-village",
+      "name": "Mountain Village",
+      "color": "#E8519D",
+      "entrances": [
+        {
+          "id": "mountain-village-to-mountain-smithy",
+          "name": "Mountain Smithy",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "mountain-village-to-goron-graveyard",
+          "name": "Goron Graveyard",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "mountain-village-to-spring-tunnel-grotto",
+          "name": "Spring Tunnel Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "mountain-village-to-road-to-mountain-village",
+          "name": "Road to Mountain Village",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "mountain-village-to-twin-islands",
+          "name": "Twin Islands",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "mountain-village-to-path-to-snowhead",
+          "name": "Path to Snowhead",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "twin-islands",
+      "name": "Twin Islands",
+      "color": "#AB47BC",
+      "entrances": [
+        {
+          "id": "twin-islands-to-mountain-village",
+          "name": "Mountain Village",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "twin-islands-to-goron-village",
+          "name": "Goron Village",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "twin-islands-to-goron-racetrack",
+          "name": "Goron Racetrack",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "twin-islands-to-ramp-tree-grotto",
+          "name": "Ramp Tree Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "twin-islands-to-ice-block-grotto",
+          "name": "Ice Block Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "goron-village",
+      "name": "Goron Village",
+      "color": "#7986CB",
+      "entrances": [
+        {
+          "id": "goron-village-to-twin-islands",
+          "name": "Twin Islands",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "goron-village-to-goron-shrine",
+          "name": "Goron Shrine",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "goron-village-to-goron-shrine-shop",
+          "name": "Goron Shrine Shop",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "goron-village-to-lens-cave",
+          "name": "Lens Cave",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "snowhead",
+      "name": "Snowhead",
+      "color": "#26A69A",
+      "entrances": [
+        {
+          "id": "snowhead-to-snowhead-great-fairy",
+          "name": "Snowhead Great Fairy",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "snowhead-to-path-to-snowhead",
+          "name": "Path to Snowhead",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "path-to-snowhead",
+      "name": "Path to Snowhead",
+      "color": "#66BB6A",
+      "entrances": [
+        {
+          "id": "path-to-snowhead-to-snowball-triangle-grotto",
+          "name": "Snowball Triangle Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "path-to-snowhead-to-mountain-village",
+          "name": "Mountain Village",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "path-to-snowhead-to-snowhead",
+          "name": "Snowhead",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "great-bay-coast",
+      "name": "Great Bay Coast",
+      "color": "#9CCC65",
+      "entrances": [
+        {
+          "id": "great-bay-coast-to-fishermans-hut",
+          "name": "Fisherman's Hut",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "great-bay-coast-to-marine-research-lab",
+          "name": "Marine Research Lab",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "great-bay-coast-to-fishermans-hut-grotto",
+          "name": "Fisherman's Hut Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "great-bay-coast-to-hookshot-ledges-grotto",
+          "name": "Hookshot Ledges Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "great-bay-coast-to-termina-field",
+          "name": "Termina Field",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "great-bay-coast-to-zora-cape",
+          "name": "Zora Cape",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "great-bay-coast-to-pinnacle-rock",
+          "name": "Pinnacle Rock",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "great-bay-coast-to-pirates-fortress-exterior",
+          "name": "Pirates' Fortress Exterior",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "zora-cape",
+      "name": "Zora Cape",
+      "color": "#D4E157",
+      "entrances": [
+        {
+          "id": "zora-cape-to-great-bay-coast",
+          "name": "Great Bay Coast",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "zora-cape-to-zora-hall-main-entrance",
+          "name": "Zora Hall Main Entrance",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "zora-cape-to-zora-hall-back-entrance",
+          "name": "Zora Hall Back Entrance",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "zora-cape-to-great-bay-great-fairy",
+          "name": "Great Bay Great Fairy",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "zora-cape-to-waterfall-rapids",
+          "name": "Waterfall Rapids",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "zora-cape-to-boulder-grotto",
+          "name": "Boulder Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "zora-hall",
+      "name": "Zora Hall",
+      "color": "#FFEE58",
+      "entrances": [
+        {
+          "id": "zora-hall-to-zora-cape-from-main-entrance",
+          "name": "Zora Cape from Main Entrance",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "zora-hall-to-zora-cape-from-back-entrance",
+          "name": "Zora Cape from Back Entrance",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "zora-hall-to-lulus-room",
+          "name": "Lulu's Room",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "zora-hall-to-evans-room",
+          "name": "Evan's Room",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "zora-hall-to-japas-room",
+          "name": "Japas' Room",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "zora-hall-to-tijos-room",
+          "name": "Tijo's Room",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "zora-hall-to-zora-hall-shop",
+          "name": "Zora Hall Shop",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "pirates-fortress-exterior",
+      "name": "Pirates' Fortress Exterior",
+      "color": "#FFCA28",
+      "entrances": [
+        {
+          "id": "pirates-fortress-exterior-to-sewers-tower",
+          "name": "Sewers Tower",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "pirates-fortress-exterior-to-great-bay-coast",
+          "name": "Great Bay Coast",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "pirates-fortress-exterior-to-barrel-interior-entrance",
+          "name": "Barrel Interior Entrance",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "pirates-fortress-exterior-to-sewers-underwater",
+          "name": "Sewers Underwater",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "pirates-fortress-exterior-to-hook-interior-entrance",
+          "name": "Hook Interior Entrance",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "pinnacle-rock",
+      "name": "Pinnacle Rock",
+      "color": "#FFA726",
+      "entrances": [
+        {
+          "id": "pinnacle-rock-to-great-bay-coast",
+          "name": "Great Bay Coast",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "pirates-fortress-sewers",
+      "name": "Pirates' Fortress Sewers",
+      "color": "#FF7043",
+      "entrances": [
+        {
+          "id": "pirates-fortress-sewers-to-underwater-exit",
+          "name": "Underwater Exit",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "pirates-fortress-interior",
+      "name": "Pirates' Fortress Interior",
+      "color": "#8D6E63",
+      "entrances": [
+        {
+          "id": "pirates-fortress-interior-to-barrel-exit",
+          "name": "Barrel Exit",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "pirates-fortress-interior-to-hook-exit",
+          "name": "Hook Exit",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "ikana-canyon",
+      "name": "Ikana Canyon",
+      "color": "#78909C",
+      "entrances": [
+        {
+          "id": "ikana-canyon-to-sakons-hideout",
+          "name": "Sakon's Hideout",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "ikana-canyon-to-music-box-house",
+          "name": "Music Box House",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "ikana-canyon-to-ghost-hut",
+          "name": "Ghost Hut",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "ikana-canyon-to-water-spring-cave",
+          "name": "Water Spring Cave",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "ikana-canyon-to-ikana-great-fairy",
+          "name": "Ikana Great Fairy",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "ikana-canyon-to-waterfall-grotto",
+          "name": "Waterfall Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "ikana-canyon-to-road-to-ikana",
+          "name": "Road to Ikana",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "ikana-canyon-to-ancient-castle-of-ikana-exterior",
+          "name": "Ancient Castle of Ikana Exterior",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "ikana-canyon-to-stone-tower",
+          "name": "Stone Tower",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "ikana-canyon-to-waterfall-to-swamp",
+          "name": "Waterfall to Swamp",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "road-to-ikana",
+      "name": "Road to Ikana",
+      "color": "#EF5350",
+      "entrances": [
+        {
+          "id": "road-to-ikana-to-termina-field",
+          "name": "Termina Field",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "road-to-ikana-to-ikana-graveyard",
+          "name": "Ikana Graveyard",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "road-to-ikana-to-ikana-canyon",
+          "name": "Ikana Canyon",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "road-to-ikana-to-red-boulder-grotto",
+          "name": "Red Boulder Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "ikana-graveyard",
+      "name": "Ikana Graveyard",
+      "color": "#EC407A",
+      "entrances": [
+        {
+          "id": "ikana-graveyard-to-road-to-ikana",
+          "name": "Road to Ikana",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "ikana-graveyard-to-night-1-grave",
+          "name": "Night 1 Grave",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "ikana-graveyard-to-night-2-grave",
+          "name": "Night 2 Grave",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "ikana-graveyard-to-night-3-grave",
+          "name": "Night 3 Grave",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "ikana-graveyard-to-rock-circle-grotto",
+          "name": "Rock Circle Grotto",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "ancient-castle-of-ikana-exterior",
+      "name": "Ancient Castle of Ikana Exterior",
+      "color": "#E91E63",
+      "entrances": [
+        {
+          "id": "ancient-castle-of-ikana-exterior-to-ikana-canyon",
+          "name": "Ikana Canyon",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "ancient-castle-of-ikana-exterior-to-castle-keg-hole",
+          "name": "Castle Keg Hole",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "ancient-castle-of-ikana-exterior-to-castle-block-hole",
+          "name": "Castle Block Hole",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "stone-tower",
+      "name": "Stone Tower",
+      "color": "#9C27B0",
+      "entrances": [
+        {
+          "id": "stone-tower-to-ikana-canyon",
+          "name": "Ikana Canyon",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "dungeons",
+      "name": "Dungeons",
+      "color": "#673AB7",
+      "entrances": [
+        {
+          "id": "dungeons-to-woodfall-temple",
+          "name": "Woodfall Temple",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "dungeons-to-snowhead-temple",
+          "name": "Snowhead Temple",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "dungeons-to-great-bay-temple",
+          "name": "Great Bay Temple",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "dungeons-to-stone-tower-temple",
+          "name": "Stone Tower Temple",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "dungeons-to-inverted-stone-tower-temple",
+          "name": "Inverted Stone Tower Temple",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "dungeons-to-swamp-spider-house",
+          "name": "Swamp Spider House",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "dungeons-to-ocean-spider-house",
+          "name": "Ocean Spider House",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "dungeons-to-pirates-fortress",
+          "name": "Pirates' Fortress",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "dungeons-to-beneath-the-well",
+          "name": "Beneath the Well",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "dungeons-to-beneath-the-well-end",
+          "name": "Beneath the Well End",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "dungeons-to-ancient-castle-of-ikana",
+          "name": "Ancient Castle of Ikana",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "dungeons-to-secret-shrine",
+          "name": "Secret Shrine",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "dungeons-to-clock-tower-roof",
+          "name": "Clock Tower Roof",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "owl-statues",
+      "name": "Owl Statues",
+      "color": "#3F51B5",
+      "entrances": [
+        {
+          "id": "owl-statues-to-clock-town-owl",
+          "name": "Clock Town Owl",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "owl-statues-to-milk-road-owl",
+          "name": "Milk Road Owl",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "owl-statues-to-southern-swamp-owl",
+          "name": "Southern Swamp Owl",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "owl-statues-to-woodfall-owl",
+          "name": "Woodfall Owl",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "owl-statues-to-mountain-village-owl",
+          "name": "Mountain Village Owl",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "owl-statues-to-snowhead-owl",
+          "name": "Snowhead Owl",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "owl-statues-to-great-bay-coast-owl",
+          "name": "Great Bay Coast Owl",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "owl-statues-to-zora-cape-owl",
+          "name": "Zora Cape Owl",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "owl-statues-to-ikana-canyon-owl",
+          "name": "Ikana Canyon Owl",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "owl-statues-to-stone-tower-owl",
+          "name": "Stone Tower Owl",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "great-bay-water-voids",
+      "name": "Great Bay Water Voids",
+      "color": "#009688",
+      "entrances": [
+        {
+          "id": "great-bay-water-voids-to-great-bay-coast-south",
+          "name": "Great Bay Coast South",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "great-bay-water-voids-to-great-bay-coast-north",
+          "name": "Great Bay Coast North",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "great-bay-water-voids-to-pinnacle-rock",
+          "name": "Pinnacle Rock",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "great-bay-water-voids-to-zora-cape",
+          "name": "Zora Cape",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "wallmasters-mm",
+      "name": "Wallmasters MM",
+      "color": "#4CAF50",
+      "entrances": [
+        {
+          "id": "wallmasters-to-ikana-graveyard-night-3-grave",
+          "name": "Ikana Graveyard - Night 3 Grave",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "wallmasters-to-beneath-the-well-entrance",
+          "name": "Beneath the Well - Entrance",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "wallmasters-to-beneath-the-well-fairy-fountain",
+          "name": "Beneath the Well - Fairy Fountain",
+          "defaultDestination": "",
+          "game": "MM"
+        },
+        {
+          "id": "wallmasters-to-beneath-the-well-exit",
+          "name": "Beneath the Well - Exit",
+          "defaultDestination": "",
+          "game": "MM"
+        }
+      ],
+      "game": "MM"
     }
   ]
 }

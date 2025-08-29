@@ -15,6 +15,7 @@ const TrackerContent: React.FC = () => {
   const [draggedItem, setDraggedItem] = useState<number | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [filterType, setFilterType] = useState<'all' | 'overworld' | 'town' | 'special'>('all');
+  const [gameFilter, setGameFilter] = useState<'all' | 'OOT' | 'MM'>('all');
   const [activeTab, setActiveTab] = useState<'tracker' | 'route-finder'>('tracker');
   
   // Cast the imported JSON to our TypeScript type
@@ -29,6 +30,13 @@ const TrackerContent: React.FC = () => {
       filtered = filtered.filter(area => {
         const areaType = AREA_TYPES[area.id];
         return areaType?.toLowerCase() === filterType;
+      });
+    }
+    
+    // Apply game filter
+    if (gameFilter !== 'all') {
+      filtered = filtered.filter(area => {
+        return area.game === gameFilter;
       });
     }
     
@@ -53,7 +61,7 @@ const TrackerContent: React.FC = () => {
       const bIndex = areaOrder.indexOf(b.id);
       return aIndex - bIndex;
     });
-  }, [areas, searchTerm, filterType, areaOrder]);
+  }, [areas, searchTerm, filterType, gameFilter, areaOrder]);
   
   const handleDragStart = useCallback((e: React.DragEvent, index: number) => {
     setDraggedItem(index);
@@ -155,6 +163,8 @@ const TrackerContent: React.FC = () => {
             onSearchChange={setSearchTerm}
             filterType={filterType}
             onFilterChange={setFilterType}
+            gameFilter={gameFilter}
+            onGameFilterChange={setGameFilter}
             isDarkMode={isDarkMode}
           />
           

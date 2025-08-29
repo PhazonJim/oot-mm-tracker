@@ -5,6 +5,8 @@ interface SearchFilterProps {
   onSearchChange: (term: string) => void;
   filterType: 'all' | 'overworld' | 'town' | 'special';
   onFilterChange: (type: 'all' | 'overworld' | 'town' | 'special') => void;
+  gameFilter: 'all' | 'OOT' | 'MM';
+  onGameFilterChange: (game: 'all' | 'OOT' | 'MM') => void;
   isDarkMode: boolean;
 }
 
@@ -12,7 +14,9 @@ const SearchFilter: React.FC<SearchFilterProps> = ({
   searchTerm,
   onSearchChange,
   filterType,
-  onFilterChange
+  onFilterChange,
+  gameFilter,
+  onGameFilterChange
 }) => {
   return (
     <div className="search-filter">
@@ -56,6 +60,30 @@ const SearchFilter: React.FC<SearchFilterProps> = ({
           aria-pressed={filterType === 'special'}
         >
           Special
+        </button>
+        
+        {/* Game Filter Buttons */}
+        <div className="filter-separator" />
+        <button
+          className={`filter-btn ${gameFilter === 'all' ? 'active' : ''}`}
+          onClick={() => onGameFilterChange('all')}
+          aria-pressed={gameFilter === 'all'}
+        >
+          All Games
+        </button>
+        <button
+          className={`filter-btn ${gameFilter === 'OOT' ? 'active' : ''}`}
+          onClick={() => onGameFilterChange('OOT')}
+          aria-pressed={gameFilter === 'OOT'}
+        >
+          OOT
+        </button>
+        <button
+          className={`filter-btn ${gameFilter === 'MM' ? 'active' : ''}`}
+          onClick={() => onGameFilterChange('MM')}
+          aria-pressed={gameFilter === 'MM'}
+        >
+          MM
         </button>
       </div>
     </div>

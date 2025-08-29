@@ -1,37 +1,34 @@
 export const GAME_TITLE = "OoT/MM Tracker";
 export const VERSION = "1.0.0";
 
-// Colors for different area types
-export const AREA_COLORS = {
-  OVERWORLD: "#4CAF50",
-  DUNGEON: "#F44336",
-  TOWN: "#2196F3",
-  SPECIAL: "#FF9800"
-};
-
 // Area types mapping
 export const AREA_TYPES: Record<string, 'OVERWORLD' | 'DUNGEON' | 'TOWN' | 'SPECIAL'> = {
-  "castle-gate": "SPECIAL",
+  "castle-gate": "OVERWORLD",
   "market": "TOWN",
-  "temple-of-time-exterior": "SPECIAL",
+  "temple-of-time-exterior": "OVERWORLD",
   "lon-lon-ranch": "OVERWORLD",
   "hyrule-field": "OVERWORLD",
   "kokiri-forest": "OVERWORLD",
   "lost-woods": "OVERWORLD",
   "sacred-forest-meadow": "OVERWORLD",
   "kakariko-village": "TOWN",
-  "kakariko-graveyard": "SPECIAL",
+  "kakariko-graveyard": "OVERWORLD",
   "death-mountain-trail": "OVERWORLD",
   "goron-city": "TOWN",
   "death-mountain-crater": "OVERWORLD",
   "zoras-river": "OVERWORLD",
   "zoras-domain": "TOWN",
-  "zoras-fountain": "SPECIAL",
+  "zoras-fountain": "OVERWORLD",
   "lake-hylia": "OVERWORLD",
   "gerudo-valley": "OVERWORLD",
-  "gerudo-fortress": "SPECIAL",
+  "gerudo-fortress": "OVERWORLD",
   "haunted-wastelands": "OVERWORLD",
-  "desert-colossus": "SPECIAL",
-  "hyrule-castle": "SPECIAL",
-  "ganons-castle-exterior": "SPECIAL"
+  "desert-colossus": "OVERWORLD",
+  "hyrule-castle": "OVERWORLD",
+  "ganons-castle-exterior": "OVERWORLD",
+  "warp-songs": "SPECIAL",
+  "wallmasters-oot": "SPECIAL",
+  "dungeons": "SPECIAL",
+  "overworld-one-ways": "SPECIAL",
+  "spawns": "SPECIAL"
 };
