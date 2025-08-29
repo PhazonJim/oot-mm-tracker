@@ -1,6 +1,6 @@
 import React from 'react';
 import { GAME_TITLE, VERSION } from '../data/constants';
-import { useTrackerContext } from '../context/TrackerContext';
+import { useTrackerContext } from '../hooks/useTrackerContext';
 
 interface TrackerHeaderProps {
   onToggleTheme: () => void;
@@ -54,7 +54,7 @@ const TrackerHeader: React.FC<TrackerHeaderProps> = ({ onToggleTheme, isDarkMode
             importData(importedData);
             alert('Import successful!');
           }
-        } catch (error) {
+        } catch {
           alert('Invalid file format. Please select a valid tracker export file.');
         }
       };

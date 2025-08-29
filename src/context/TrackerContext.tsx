@@ -1,20 +1,10 @@
-import React, { createContext, useContext } from 'react';
+import React from 'react';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 import locationsData from '../data/locations.json';
 import type { LocationsData } from '../types';
+import { TrackerContext } from './TrackerContextTypes';
 
 type ConnectionsMap = Record<string, string>;
-
-interface TrackerContextType {
-  connections: ConnectionsMap;
-  updateConnection: (entranceId: string, destinationId: string) => void;
-  resetTracker: () => void;
-  areaOrder: string[];
-  updateAreaOrder: (newOrder: string[]) => void;
-  importData: (data: { connections?: ConnectionsMap; areaOrder?: string[] }) => void;
-}
-
-const TrackerContext = createContext<TrackerContextType | undefined>(undefined);
 
 export const TrackerProvider: React.FC<{children: React.ReactNode}> = ({ children }) => {
   const [connections, setConnections] = useLocalStorage<ConnectionsMap>('oot-tracker-connections', {});
@@ -62,10 +52,3 @@ export const TrackerProvider: React.FC<{children: React.ReactNode}> = ({ childre
   );
 };
 
-export const useTrackerContext = () => {
-  const context = useContext(TrackerContext);
-  if (!context) {
-    throw new Error('useTrackerContext must be used within a TrackerProvider');
-  }
-  return context;
-};

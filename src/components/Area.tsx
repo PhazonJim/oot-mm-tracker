@@ -1,6 +1,6 @@
 import React from 'react';
 import EntranceSelect from './EntranceSelect';
-import { useTrackerContext } from '../context/TrackerContext';
+import { useTrackerContext } from '../hooks/useTrackerContext';
 import { getIconUrl } from '../utils/getIconUrl';
 import type { Area as AreaType } from '../types';
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import FilterableSelect from './FilterableSelect';
-import { useTrackerContext } from '../context/TrackerContext';
+import { useTrackerContext } from '../hooks/useTrackerContext';
 import type { Route } from '../utils/RouteCalculator';
 import locationsData from '../data/locations.json';
 import type { LocationsData } from '../types';
@@ -10,7 +10,7 @@ interface RouteFinderProps {
   isDarkMode: boolean;
 }
 
-const RouteFinder: React.FC<RouteFinderProps> = ({ }) => {
+const RouteFinder: React.FC<RouteFinderProps> = () => {
   const { connections } = useTrackerContext();
   const [startEntrance, setStartEntrance] = useState('');
   const [endEntrance, setEndEntrance] = useState('');
