@@ -4,6 +4,7 @@ import Area from './components/Area';
 import TrackerHeader from './components/TrackerHeader';
 import SearchFilter from './components/SearchFilter';
 import RouteFinder from './components/RouteFinder';
+import ItemTracker from './components/ItemTracker';
 import ErrorBoundary from './components/ErrorBoundary';
 import { TrackerProvider } from './context/TrackerContext';
 import { useTrackerContext } from './hooks/useTrackerContext';
@@ -17,7 +18,7 @@ const TrackerContent: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [filterType, setFilterType] = useState<'all' | 'overworld' | 'town' | 'special'>('all');
   const [gameFilter, setGameFilter] = useState<'all' | 'OOT' | 'MM'>('all');
-  const [activeTab, setActiveTab] = useState<'tracker' | 'route-finder'>('tracker');
+  const [activeTab, setActiveTab] = useState<'tracker' | 'route-finder' | 'items'>('tracker');
   
   // Cast the imported JSON to our TypeScript type
   const { areas } = locationsData as LocationsData;
@@ -165,6 +166,13 @@ const TrackerContent: React.FC = () => {
         >
           Route Finder
         </button>
+        <button 
+          className={`tab-button ${activeTab === 'items' ? 'active' : ''}`}
+          onClick={() => setActiveTab('items')}
+          aria-pressed={activeTab === 'items'}
+        >
+          Items
+        </button>
       </div>
       
       {activeTab === 'tracker' && (
@@ -205,6 +213,16 @@ const TrackerContent: React.FC = () => {
           aria-label="Route finder"
         >
           <RouteFinder isDarkMode={isDarkMode} />
+        </main>
+      )}
+
+      {activeTab === 'items' && (
+        <main 
+          className="items-container"
+          role="main"
+          aria-label="Item tracker"
+        >
+          <ItemTracker isDarkMode={isDarkMode} />
         </main>
       )}
       

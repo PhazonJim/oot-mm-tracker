@@ -1,4 +1,5 @@
 import { createContext } from 'react';
+import type { ItemState } from '../types';
 
 type ConnectionsMap = Record<string, string>;
 
@@ -8,7 +9,10 @@ export interface TrackerContextType {
   resetTracker: () => void;
   areaOrder: string[];
   updateAreaOrder: (newOrder: string[]) => void;
-  importData: (data: { connections?: ConnectionsMap; areaOrder?: string[] }) => void;
+  items: ItemState;
+  updateItem: (itemId: string, value: boolean | number) => void;
+  resetItems: () => void;
+  importData: (data: { connections?: ConnectionsMap; areaOrder?: string[]; items?: ItemState }) => void;
 }
 
 export const TrackerContext = createContext<TrackerContextType | undefined>(undefined);

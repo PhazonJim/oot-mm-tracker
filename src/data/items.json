@@ -1,0 +1,1498 @@
+{
+  "equipment": [
+    {
+      "id": "fairy_bow",
+      "name": "Fairy Bow",
+      "icon": "oot/fairy_bow.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "mm_hero_bow",
+      "name": "Hero's Bow",
+      "icon": "mm/hero_s_bow.ico",
+      "game": "MM",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "hookshot",
+      "name": "Hookshot",
+      "icon": "oot/hookshot.ico", 
+      "game": "OOT",
+      "category": "equipment",
+      "type": "progressive",
+      "max_level": 2,
+      "levels": ["Hookshot", "Longshot"]
+    },
+    {
+      "id": "mm_hookshot",
+      "name": "Hookshot",
+      "icon": "mm/hookshot.ico",
+      "game": "MM",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "boomerang",
+      "name": "Boomerang",
+      "icon": "oot/boomerang.ico",
+      "game": "OOT", 
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "fairy_slingshot",
+      "name": "Fairy Slingshot",
+      "icon": "oot/fairy_slingshot.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "megaton_hammer",
+      "name": "Megaton Hammer",
+      "icon": "oot/megaton_hammer.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "lens_of_truth",
+      "name": "Lens of Truth",
+      "icon": "oot/lens_of_truth.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "mm_lens_of_truth",
+      "name": "Lens of Truth",
+      "icon": "mm/lens_of_truth.ico",
+      "game": "MM",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "din_s_fire",
+      "name": "Din's Fire",
+      "icon": "oot/din_s_fire.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "farore_s_wind",
+      "name": "Farore's Wind",
+      "icon": "oot/farore_s_wind.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "nayru_s_love",
+      "name": "Nayru's Love",
+      "icon": "oot/nayru_s_love.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "fire_arrow",
+      "name": "Fire Arrow",
+      "icon": "oot/fire_arrow.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "ice_arrow",
+      "name": "Ice Arrow",
+      "icon": "oot/ice_arrow.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "light_arrow",
+      "name": "Light Arrow",
+      "icon": "oot/light_arrow.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "mm_fire_arrow",
+      "name": "Fire Arrow",
+      "icon": "mm/fire_arrow.ico",
+      "game": "MM",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "mm_ice_arrow",
+      "name": "Ice Arrow",
+      "icon": "mm/ice_arrow.ico",
+      "game": "MM",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "mm_light_arrow",
+      "name": "Light Arrow",
+      "icon": "mm/light_arrow.ico",
+      "game": "MM",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "deku_shield",
+      "name": "Deku Shield",
+      "icon": "oot/deku_shield.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "hylian_shield",
+      "name": "Hylian Shield",
+      "icon": "oot/hylian_shield.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "mirror_shield",
+      "name": "Mirror Shield",
+      "icon": "oot/mirror_shield.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "mm_hero_shield",
+      "name": "Hero's Shield",
+      "icon": "mm/hero_s_shield.ico",
+      "game": "MM",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "mm_mirror_shield",
+      "name": "Mirror Shield",
+      "icon": "mm/mirror_shield.ico",
+      "game": "MM",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "kokiri_tunic",
+      "name": "Kokiri Tunic",
+      "icon": "oot/kokiri_tunic.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "goron_tunic",
+      "name": "Goron Tunic",
+      "icon": "oot/goron_tunic.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "zora_tunic",
+      "name": "Zora Tunic",
+      "icon": "oot/zora_tunic.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "kokiri_boots",
+      "name": "Kokiri Boots",
+      "icon": "oot/kokiri_boots.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "iron_boots",
+      "name": "Iron Boots",
+      "icon": "oot/iron_boots.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    },
+    {
+      "id": "hover_boots",
+      "name": "Hover Boots",
+      "icon": "oot/hover_boots.ico",
+      "game": "OOT",
+      "category": "equipment",
+      "type": "toggle"
+    }
+  ],
+  "quest_items": [
+    {
+      "id": "kokiri_emerald",
+      "name": "Kokiri's Emerald",
+      "icon": "oot/kokiri_emerald.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "goron_s_ruby",
+      "name": "Goron's Ruby",
+      "icon": "oot/goron_s_ruby.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "zora_s_sapphire", 
+      "name": "Zora's Sapphire",
+      "icon": "oot/zora_s_sapphire.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "forest_medallion",
+      "name": "Forest Medallion",
+      "icon": "oot/forest_medallion.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "fire_medallion",
+      "name": "Fire Medallion",
+      "icon": "oot/fire_medallion.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "water_medallion",
+      "name": "Water Medallion",
+      "icon": "oot/water_medallion.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "shadow_medallion",
+      "name": "Shadow Medallion",
+      "icon": "oot/shadow_medallion.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "spirit_medallion",
+      "name": "Spirit Medallion",
+      "icon": "oot/spirit_medallion.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "light_medallion",
+      "name": "Light Medallion",
+      "icon": "oot/light_medallion.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "gerudo_card",
+      "name": "Gerudo Card",
+      "icon": "oot/gerudo_card.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "stone_of_agony",
+      "name": "Stone of Agony",
+      "icon": "oot/stone_of_agony.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "odolwa_remains",
+      "name": "Odolwa's Remains",
+      "icon": "mm/odolwa_s_remains.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "goht_remains",
+      "name": "Goht's Remains",
+      "icon": "mm/goht_s_remains.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "gyorg_remains",
+      "name": "Gyorg's Remains",
+      "icon": "mm/gyorg_s_remains.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "twinmold_remains",
+      "name": "Twinmold's Remains",
+      "icon": "mm/twinmold_s_remains.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    }
+  ],
+  "songs": [
+    {
+      "id": "zelda_s_lullaby",
+      "name": "Zelda's Lullaby",
+      "icon": "oot/zelda_s_lullaby_edit.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "epona_s_song",
+      "name": "Epona's Song",
+      "icon": "oot/epona_s_song_edit.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "saria_s_song",
+      "name": "Saria's Song",
+      "icon": "oot/saria_s_song_edit.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "sun_s_song",
+      "name": "Sun's Song",
+      "icon": "oot/sun_s_song_edit.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "song_of_time",
+      "name": "Song of Time",
+      "icon": "oot/song_of_time_edit.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "song_of_storms",
+      "name": "Song of Storms",
+      "icon": "oot/song_of_storms_edit.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "minuet_of_forest",
+      "name": "Minuet of Forest",
+      "icon": "oot/minuet_of_forest.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "bolero_of_fire",
+      "name": "Bolero of Fire",
+      "icon": "oot/bolero_of_fire.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "serenade_of_water",
+      "name": "Serenade of Water",
+      "icon": "oot/serenade_of_water.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "requiem_of_spirit",
+      "name": "Requiem of Spirit",
+      "icon": "oot/requiem_of_spirit.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "nocturne_of_shadow",
+      "name": "Nocturne of Shadow",
+      "icon": "oot/nocturne_of_shadow.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "prelude_of_light",
+      "name": "Prelude of Light",
+      "icon": "oot/prelude_of_light.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "song_of_healing",
+      "name": "Song of Healing",
+      "icon": "mm/song_of_healing_edit.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "mm_epona_song",
+      "name": "Epona's Song",
+      "icon": "mm/epona_s_song_edit.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "song_of_soaring",
+      "name": "Song of Soaring",
+      "icon": "mm/song_of_soaring_edit.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "mm_song_of_time",
+      "name": "Song of Time",
+      "icon": "mm/song_of_time_edit.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "mm_song_of_storms",
+      "name": "Song of Storms",
+      "icon": "mm/song_of_storms_edit.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "sonata_of_awakening",
+      "name": "Sonata of Awakening",
+      "icon": "mm/sonata_of_awakening.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "goron_lullaby",
+      "name": "Goron Lullaby",
+      "icon": "mm/goron_lullaby.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "new_wave_bossa_nova",
+      "name": "New Wave Bossa Nova",
+      "icon": "mm/new_wave_bossa_nova.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "elegy_of_emptiness",
+      "name": "Elegy of Emptiness",
+      "icon": "mm/elegy_of_emptiness.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "oath_to_order",
+      "name": "Oath to Order",
+      "icon": "mm/oath_to_order.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    }
+  ],
+  "masks": [
+    {
+      "id": "keaton_mask",
+      "name": "Keaton Mask",
+      "icon": "oot/keaton_mask.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "skull_mask",
+      "name": "Skull Mask",
+      "icon": "oot/skull_mask.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "spooky_mask",
+      "name": "Spooky Mask",
+      "icon": "oot/spooky_mask.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "bunny_hood",
+      "name": "Bunny Hood",
+      "icon": "oot/bunny_hood.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "goron_mask",
+      "name": "Goron Mask",
+      "icon": "oot/goron_mask.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "zora_mask",
+      "name": "Zora Mask",
+      "icon": "oot/zora_mask.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "gerudo_mask",
+      "name": "Gerudo Mask",
+      "icon": "oot/gerudo_mask.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "mask_of_truth",
+      "name": "Mask of Truth",
+      "icon": "oot/mask_of_truth.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "deku_mask",
+      "name": "Deku Mask",
+      "icon": "mm/deku_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "mm_goron_mask",
+      "name": "Goron Mask",
+      "icon": "mm/goron_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "mm_zora_mask",
+      "name": "Zora Mask",
+      "icon": "mm/zora_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "fierce_deity_mask",
+      "name": "Fierce Deity's Mask",
+      "icon": "mm/fierce_deity_s_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "all_night_mask",
+      "name": "All-Night Mask",
+      "icon": "mm/all_night_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "blast_mask",
+      "name": "Blast Mask",
+      "icon": "mm/blast_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "bremen_mask",
+      "name": "Bremen Mask",
+      "icon": "mm/bremen_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "mm_bunny_hood",
+      "name": "Bunny Hood",
+      "icon": "mm/bunny_hood.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "captain_hat",
+      "name": "Captain's Hat",
+      "icon": "mm/captain_s_hat.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "couple_mask",
+      "name": "Couple's Mask",
+      "icon": "mm/couple_s_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "don_gero_mask",
+      "name": "Don Gero's Mask",
+      "icon": "mm/don_gero_s_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "garo_mask",
+      "name": "Garo's Mask",
+      "icon": "mm/garo_s_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "giant_mask",
+      "name": "Giant's Mask",
+      "icon": "mm/giant_s_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "gibdo_mask",
+      "name": "Gibdo Mask",
+      "icon": "mm/gibdo_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "great_fairy_mask",
+      "name": "Great Fairy's Mask",
+      "icon": "mm/great_fairy_s_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "kafei_mask",
+      "name": "Kafei's Mask",
+      "icon": "mm/kafei_s_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "kamaro_mask",
+      "name": "Kamaro's Mask",
+      "icon": "mm/kamaro_s_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "mm_keaton_mask",
+      "name": "Keaton Mask",
+      "icon": "mm/keaton_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "mask_of_scents",
+      "name": "Mask of Scents",
+      "icon": "mm/mask_of_scents.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "mm_mask_of_truth",
+      "name": "Mask of Truth",
+      "icon": "mm/mask_of_truth.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "postman_hat",
+      "name": "Postman's Hat",
+      "icon": "mm/postman_s_hat.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "romani_mask",
+      "name": "Romani's Mask",
+      "icon": "mm/romani_s_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "stone_mask",
+      "name": "Stone Mask",
+      "icon": "mm/stone_mask.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "toggle"
+    }
+  ],
+  "consumables": [
+    {
+      "id": "deku_nut",
+      "name": "Deku Nuts",
+      "icon": "oot/deku_nut.ico",
+      "game": "OOT",
+      "category": "consumable", 
+      "type": "quantity",
+      "max_quantity": 40
+    },
+    {
+      "id": "deku_stick",
+      "name": "Deku Sticks",
+      "icon": "oot/deku_stick.ico",
+      "game": "OOT",
+      "category": "consumable", 
+      "type": "quantity",
+      "max_quantity": 30
+    },
+    {
+      "id": "deku_seeds",
+      "name": "Deku Seeds",
+      "icon": "oot/deku_seeds.ico",
+      "game": "OOT",
+      "category": "consumable", 
+      "type": "quantity",
+      "max_quantity": 50
+    },
+    {
+      "id": "bomb",
+      "name": "Bombs",
+      "icon": "oot/bomb.ico",
+      "game": "OOT",
+      "category": "consumable", 
+      "type": "quantity",
+      "max_quantity": 40
+    },
+    {
+      "id": "bombchu",
+      "name": "Bombchus",
+      "icon": "oot/bombchu.ico",
+      "game": "OOT",
+      "category": "consumable", 
+      "type": "quantity",
+      "max_quantity": 50
+    },
+    {
+      "id": "magic_beans",
+      "name": "Magic Beans",
+      "icon": "oot/magic_beans.ico",
+      "game": "OOT",
+      "category": "consumable", 
+      "type": "quantity",
+      "max_quantity": 10
+    },
+    {
+      "id": "small_key",
+      "name": "Small Keys",
+      "icon": "oot/small_key.ico",
+      "game": "OOT",
+      "category": "consumable", 
+      "type": "quantity",
+      "max_quantity": 99
+    },
+    {
+      "id": "boss_key",
+      "name": "Boss Keys",
+      "icon": "oot/boss_key.ico",
+      "game": "OOT",
+      "category": "consumable", 
+      "type": "quantity",
+      "max_quantity": 10
+    },
+    {
+      "id": "rupee",
+      "name": "Rupees",
+      "icon": "oot/rupee_icon.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity", 
+      "max_quantity": 999
+    },
+    {
+      "id": "gold_skulltula",
+      "name": "Gold Skulltula Tokens",
+      "icon": "oot/gold_skulltula.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity", 
+      "max_quantity": 100
+    },
+    {
+      "id": "heart_piece",
+      "name": "Heart Pieces",
+      "icon": "oot/heart_piece.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity", 
+      "max_quantity": 36
+    },
+    {
+      "id": "heart_container",
+      "name": "Heart Containers",
+      "icon": "oot/heart_container.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity", 
+      "max_quantity": 8
+    },
+    {
+      "id": "mm_bomb",
+      "name": "Bombs",
+      "icon": "mm/bomb.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 40
+    },
+    {
+      "id": "mm_bombchu",
+      "name": "Bombchus",
+      "icon": "mm/bombchu.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 50
+    },
+    {
+      "id": "mm_deku_nut",
+      "name": "Deku Nuts",
+      "icon": "mm/deku_nut.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 40
+    },
+    {
+      "id": "mm_deku_stick",
+      "name": "Deku Sticks",
+      "icon": "mm/deku_stick.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 30
+    },
+    {
+      "id": "mm_magic_beans",
+      "name": "Magic Beans",
+      "icon": "mm/magic_beans.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 10
+    },
+    {
+      "id": "powder_keg",
+      "name": "Powder Keg",
+      "icon": "mm/powder_keg.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 10
+    },
+    {
+      "id": "mm_small_key",
+      "name": "Small Keys",
+      "icon": "mm/small_key.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 99
+    },
+    {
+      "id": "mm_boss_key",
+      "name": "Boss Keys",
+      "icon": "mm/boss_key.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 10
+    },
+    {
+      "id": "stray_fairy",
+      "name": "Stray Fairies",
+      "icon": "mm/stray_fairy_middle.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 60
+    }
+  ],
+  "upgrades": [
+    {
+      "id": "wallet",
+      "name": "Wallet",
+      "icon": "oot/adult_s_wallet.ico",
+      "game": "OOT",
+      "category": "upgrade",
+      "type": "progressive",
+      "max_level": 3,
+      "levels": ["Adult Wallet", "Giant Wallet", "Tycoon Wallet"]
+    },
+    {
+      "id": "quiver",
+      "name": "Quiver", 
+      "icon": "oot/quiver_30.ico",
+      "game": "OOT",
+      "category": "upgrade",
+      "type": "progressive",
+      "max_level": 3,
+      "levels": ["Quiver (30)", "Big Quiver (40)", "Biggest Quiver (50)"] 
+    },
+    {
+      "id": "bomb_bag",
+      "name": "Bomb Bag", 
+      "icon": "oot/bomb_bag_20.ico",
+      "game": "OOT",
+      "category": "upgrade",
+      "type": "progressive",
+      "max_level": 3,
+      "levels": ["Bomb Bag (20)", "Big Bomb Bag (30)", "Biggest Bomb Bag (40)"] 
+    },
+    {
+      "id": "bullet_bag",
+      "name": "Bullet Bag", 
+      "icon": "oot/bullet_bag_30.ico",
+      "game": "OOT",
+      "category": "upgrade",
+      "type": "progressive",
+      "max_level": 3,
+      "levels": ["Bullet Bag (30)", "Big Bullet Bag (40)", "Biggest Bullet Bag (50)"] 
+    },
+    {
+      "id": "scale",
+      "name": "Scale", 
+      "icon": "oot/silver_scale.ico",
+      "game": "OOT",
+      "category": "upgrade",
+      "type": "progressive",
+      "max_level": 2,
+      "levels": ["Silver Scale", "Golden Scale"] 
+    },
+    {
+      "id": "gauntlets",
+      "name": "Gauntlets", 
+      "icon": "oot/goron_bracelet.ico",
+      "game": "OOT",
+      "category": "upgrade",
+      "type": "progressive",
+      "max_level": 3,
+      "levels": ["Goron Bracelet", "Silver Gauntlets", "Golden Gauntlets"] 
+    },
+    {
+      "id": "sword",
+      "name": "Sword", 
+      "icon": "oot/kokiri_sword.ico",
+      "game": "OOT",
+      "category": "upgrade",
+      "type": "progressive",
+      "max_level": 3,
+      "levels": ["Kokiri Sword", "Master Sword", "Biggoron's Sword"] 
+    },
+    {
+      "id": "ocarina",
+      "name": "Ocarina", 
+      "icon": "oot/fairy_ocarina.ico",
+      "game": "OOT",
+      "category": "upgrade",
+      "type": "progressive",
+      "max_level": 2,
+      "levels": ["Fairy Ocarina", "Ocarina of Time"] 
+    },
+    {
+      "id": "mm_wallet",
+      "name": "Wallet",
+      "icon": "mm/adult_s_wallet.ico",
+      "game": "MM",
+      "category": "upgrade",
+      "type": "progressive",
+      "max_level": 2,
+      "levels": ["Adult's Wallet", "Giant's Wallet"]
+    },
+    {
+      "id": "mm_sword",
+      "name": "Sword",
+      "icon": "mm/kokiri_sword.ico",
+      "game": "MM",
+      "category": "upgrade",
+      "type": "progressive",
+      "max_level": 3,
+      "levels": ["Kokiri Sword", "Razor Sword", "Gilded Sword"]
+    },
+    {
+      "id": "mm_quiver",
+      "name": "Quiver",
+      "icon": "mm/quiver_30.ico",
+      "game": "MM",
+      "category": "upgrade",
+      "type": "progressive",
+      "max_level": 3,
+      "levels": ["Quiver (30)", "Quiver (40)", "Quiver (50)"]
+    },
+    {
+      "id": "mm_bomb_bag",
+      "name": "Bomb Bag",
+      "icon": "mm/bomb_bag_20.ico",
+      "game": "MM",
+      "category": "upgrade",
+      "type": "progressive",
+      "max_level": 3,
+      "levels": ["Bomb Bag (20)", "Bomb Bag (30)", "Bomb Bag (40)"]
+    },
+    {
+      "id": "mm_ocarina",
+      "name": "Ocarina",
+      "icon": "mm/ocarina_of_time.ico",
+      "game": "MM",
+      "category": "upgrade",
+      "type": "toggle"
+    }
+  ],
+  "bottles": [
+    {
+      "id": "empty_bottle",
+      "name": "Empty Bottle",
+      "icon": "oot/empty_bottle.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "quantity",
+      "max_quantity": 4
+    },
+    {
+      "id": "bottled_fairy",
+      "name": "Bottled Fairy",
+      "icon": "oot/bottled_fairy.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 4
+    },
+    {
+      "id": "red_potion",
+      "name": "Red Potion",
+      "icon": "oot/red_potion.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 4
+    },
+    {
+      "id": "green_potion",
+      "name": "Green Potion",
+      "icon": "oot/green_potion.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 4
+    },
+    {
+      "id": "blue_potion",
+      "name": "Blue Potion",
+      "icon": "oot/blue_potion.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 4
+    },
+    {
+      "id": "blue_fire",
+      "name": "Blue Fire",
+      "icon": "oot/blue_fire.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 4
+    },
+    {
+      "id": "milk",
+      "name": "Milk",
+      "icon": "oot/milk.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 4
+    },
+    {
+      "id": "fish",
+      "name": "Fish",
+      "icon": "oot/fish.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 4
+    },
+    {
+      "id": "bug",
+      "name": "Bug",
+      "icon": "oot/bug.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 4
+    },
+    {
+      "id": "poe",
+      "name": "Poe",
+      "icon": "oot/poe.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 4
+    },
+    {
+      "id": "big_poe",
+      "name": "Big Poe",
+      "icon": "oot/big_poe.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 4
+    },
+    {
+      "id": "mm_empty_bottle",
+      "name": "Empty Bottle",
+      "icon": "mm/empty_bottle.ico",
+      "game": "MM",
+      "category": "quest",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "mm_fairy",
+      "name": "Fairy",
+      "icon": "mm/fairy.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "mm_red_potion",
+      "name": "Red Potion",
+      "icon": "mm/red_potion.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "mm_green_potion",
+      "name": "Green Potion",
+      "icon": "mm/green_potion.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "mm_blue_potion",
+      "name": "Blue Potion",
+      "icon": "mm/blue_potion.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "mm_blue_fire",
+      "name": "Blue Fire",
+      "icon": "mm/blue_fire.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "mm_milk",
+      "name": "Milk",
+      "icon": "mm/milk.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "mm_milk_half",
+      "name": "Milk (Half)",
+      "icon": "mm/milk_half.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "chateau_romani",
+      "name": "Chateau Romani",
+      "icon": "mm/chateau_romani.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "mm_fish",
+      "name": "Fish",
+      "icon": "mm/fish.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "mm_bug",
+      "name": "Bug",
+      "icon": "mm/bug.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "mm_poe",
+      "name": "Poe",
+      "icon": "mm/poe.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "mm_big_poe",
+      "name": "Big Poe",
+      "icon": "mm/big_poe.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "hot_spring_water",
+      "name": "Hot Spring Water",
+      "icon": "mm/hot_spring_water.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "spring_water",
+      "name": "Spring Water",
+      "icon": "mm/spring_water.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "zora_egg",
+      "name": "Zora Egg",
+      "icon": "mm/zora_egg.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 7
+    },
+    {
+      "id": "sea_horse",
+      "name": "Sea Horse",
+      "icon": "mm/sea_horse.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    },
+    {
+      "id": "hylian_loach",
+      "name": "Hylian Loach",
+      "icon": "mm/hylian_loach.ico",
+      "game": "MM",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 6
+    }
+  ],
+  "trade_items": [
+    {
+      "id": "weird_egg",
+      "name": "Weird Egg",
+      "icon": "oot/weird_egg.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "cucco",
+      "name": "Cucco",
+      "icon": "oot/cucco.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "zelda_s_letter",
+      "name": "Zelda's Letter",
+      "icon": "oot/zelda_s_letter.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "ruto_s_letter",
+      "name": "Ruto's Letter",
+      "icon": "oot/ruto_s_letter.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "cojiro",
+      "name": "Cojiro",
+      "icon": "oot/cojiro.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "odd_mushroom",
+      "name": "Odd Mushroom",
+      "icon": "oot/odd_mushroom.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "odd_potion",
+      "name": "Odd Potion",
+      "icon": "oot/odd_potion.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "poacher_s_saw",
+      "name": "Poacher's Saw",
+      "icon": "oot/poacher_s_saw.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "goron_s_sword_broken",
+      "name": "Broken Goron's Sword",
+      "icon": "oot/goron_s_sword_broken.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "prescription",
+      "name": "Prescription",
+      "icon": "oot/prescription.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "eyeball_frog",
+      "name": "Eyeball Frog",
+      "icon": "oot/eyeball_frog.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "eyedrops",
+      "name": "Eyedrops",
+      "icon": "oot/eyedrops.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    },
+    {
+      "id": "claim_check",
+      "name": "Claim Check",
+      "icon": "oot/claim_check.ico",
+      "game": "OOT",
+      "category": "quest",
+      "type": "toggle"
+    }
+  ],
+  "dungeon_items": [
+    {
+      "id": "compass",
+      "name": "Compass",
+      "icon": "oot/compass.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 10
+    },
+    {
+      "id": "dungeon_map",
+      "name": "Dungeon Map",
+      "icon": "oot/dungeon_map.ico",
+      "game": "OOT",
+      "category": "consumable",
+      "type": "quantity",
+      "max_quantity": 10
+    }
+  ]
+}
