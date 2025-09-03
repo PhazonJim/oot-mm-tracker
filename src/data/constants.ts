@@ -27,10 +27,18 @@ export const AREA_TYPES: Record<string, 'OVERWORLD' | 'DUNGEON' | 'TOWN' | 'SPEC
   "ganons-castle-exterior": "OVERWORLD",
   
   // OOT Dungeons
-  "ganons-castle": "DUNGEON",
+  "deku-tree": "DUNGEON",
+  "fire-temple": "DUNGEON",
+  "water-temple": "DUNGEON",
+  "dodongos-cavern": "DUNGEON",
+  "jabu-jabus-belly": "DUNGEON",
+  "ice-cavern": "DUNGEON",
   "forest-temple": "DUNGEON",
   "shadow-temple": "DUNGEON",
   "spirit-temple": "DUNGEON",
+  "bottom-of-the-well": "DUNGEON",
+  "gerudo-training-grounds": "DUNGEON",
+  "ganons-castle": "DUNGEON",
 
   // OOT Towns/Settlements
   "market": "TOWN",
@@ -78,6 +86,11 @@ export const AREA_TYPES: Record<string, 'OVERWORLD' | 'DUNGEON' | 'TOWN' | 'SPEC
   "pirates-fortress-interior": "DUNGEON",
   "pinnacle-rock": "OVERWORLD",
   "beneath-the-well": "DUNGEON",
+  "woodfall-temple": "DUNGEON",
+  "snowhead-temple": "DUNGEON",
+  "great-bay-temple": "DUNGEON",
+  "stone-tower-temple": "DUNGEON",
+  "inverted-stone-tower-temple": "DUNGEON",
   
   // MM Ikana Region
   "road-to-ikana": "OVERWORLD",

@@ -16,7 +16,7 @@ const TrackerContent: React.FC = () => {
   const { areaOrder, updateAreaOrder, connections } = useTrackerContext();
   const [draggedItem, setDraggedItem] = useState<number | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
-  const [filterType, setFilterType] = useState<'all' | 'overworld' | 'town' | 'special'>('all');
+  const [filterType, setFilterType] = useState<'all' | 'overworld' | 'town' | 'dungeon' | 'special'>('all');
   const [gameFilter, setGameFilter] = useState<'all' | 'OOT' | 'MM'>('all');
   const [activeTab, setActiveTab] = useState<'tracker' | 'route-finder' | 'items'>('tracker');
   
@@ -227,7 +227,7 @@ const TrackerContent: React.FC = () => {
       )}
       
       <footer className="tracker-footer">
-        <p>This tracker is for educational purposes only. Ocarina of Time is property of Nintendo.</p>
+        <p>This tracker is for educational purposes only. Zelda is property of Nintendo.</p>
       </footer>
     </div>
   );

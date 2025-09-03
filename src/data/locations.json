@@ -342,6 +342,20 @@
       "game": "OOT"
     },
     {
+      "id": "deku-tree",
+      "name": "Deku Tree",
+      "color": "#4CAF50",
+      "entrances": [
+        {
+          "id": "deku-tree-to-boss-gohma",
+          "name": "Boss - Gohma",
+          "game": "OOT",
+          "icon": "boss.png",
+          "required_items": []
+        }
+      ]
+    },
+    {
       "id": "lost-woods",
       "name": "Lost Woods",
       "color": "#388E3C",
@@ -490,6 +504,13 @@
           "game": "OOT",
           "icon": "wallmaster.png",
           "required_items": []
+        },
+        {
+          "id": "forest-temple-to-boss-phantom-ganon",
+          "name": "Boss - Phantom Ganon",
+          "game": "OOT",
+          "icon": "boss.png",
+          "required_items": []
         }
       ]
     },
@@ -601,6 +622,34 @@
       "game": "OOT"
     },
     {
+      "id": "bottom-of-the-well",
+      "name": "Bottom of the Well",
+      "color": "#887BE8",
+      "entrances": [
+        {
+          "id": "bottom-of-the-well-to-wallmaster-main",
+          "name": "Wallmaster - Main",
+          "game": "OOT",
+          "icon": "wallmaster.png",
+          "required_items": []
+        },
+        {
+          "id": "bottom-of-the-well-to-wallmaster-basement",
+          "name": "Wallmaster - Basement",
+          "game": "OOT",
+          "icon": "wallmaster.png",
+          "required_items": []
+        },
+        {
+          "id": "bottom-of-the-well-to-wallmaster-pit",
+          "name": "Wallmaster - Pit",
+          "game": "OOT",
+          "icon": "wallmaster.png",
+          "required_items": []
+        }
+      ]
+    },
+    {
       "id": "kakariko-graveyard",
       "name": "Kakariko Graveyard",
       "color": "#424242",
@@ -662,8 +711,90 @@
           "game": "OOT",
           "icon": "wallmaster.png",
           "required_items": []
+        },
+        {
+          "id": "shadow-temple-to-boss-bongo-bongo",
+          "name": "Boss - Bongo Bongo",
+          "game": "OOT",
+          "icon": "boss.png",
+          "required_items": []
         }
       ]
+    },
+    {
+      "id": "fire-temple",
+      "name": "Fire Temple",
+      "color": "#FF5722",
+      "entrances": [
+        {
+          "id": "fire-temple-to-boss-volvagia",
+          "name": "Boss - Volvagia",
+          "game": "OOT",
+          "icon": "boss.png",
+          "required_items": []
+        }
+      ],
+      "game": "OOT"
+    },
+    {
+      "id": "water-temple",
+      "name": "Water Temple",
+      "color": "#2196F3",
+      "entrances": [
+        {
+          "id": "water-temple-to-boss-morpha",
+          "name": "Boss - Morpha",
+          "game": "OOT",
+          "icon": "boss.png",
+          "required_items": []
+        }
+      ],
+      "game": "OOT"
+    },
+    {
+      "id": "dodongos-cavern",
+      "name": "Dodongo's Cavern",
+      "color": "#8D6E63",
+      "entrances": [
+        {
+          "id": "dodongos-cavern-to-boss-king-dodongo",
+          "name": "Boss - King Dodongo",
+          "game": "OOT",
+          "icon": "boss.png",
+          "required_items": []
+        }
+      ],
+      "game": "OOT"
+    },
+    {
+      "id": "jabu-jabus-belly",
+      "name": "Jabu Jabu's Belly",
+      "color": "#E91E63",
+      "entrances": [
+        {
+          "id": "jabu-jabus-belly-to-boss-barinade",
+          "name": "Boss - Barinade",
+          "game": "OOT",
+          "icon": "boss.png",
+          "required_items": []
+        }
+      ],
+      "game": "OOT"
+    },
+    {
+      "id": "ice-cavern",
+      "name": "Ice Cavern",
+      "color": "#03DAC6",
+      "entrances": [
+        {
+          "id": "ice-cavern-to-boss-ice-wol",
+          "name": "Boss - Ice Wolfos",
+          "game": "OOT",
+          "icon": "boss.png",
+          "required_items": []
+        }
+      ],
+      "game": "OOT"
     },
     {
       "id": "death-mountain-trail",
@@ -1064,6 +1195,21 @@
       "game": "OOT"
     },
     {
+      "id": "gerudo-training-grounds",
+      "name": "Gerudo Training Grounds",
+      "color": "#F57C00",
+      "entrances": [
+        {
+          "id": "gerudo-training-grounds-to-wallmaster",
+          "name": "Wallmaster - Firewall",
+          "game": "OOT",
+          "icon": "wallmaster.png",
+          "required_items": []
+        }
+      ],
+      "game": "OOT"
+    },
+    {
       "id": "haunted-wastelands",
       "name": "Haunted Wastelands",
       "color": "#FFC107",
@@ -1141,6 +1287,13 @@
           "name": "Wallmaster - [MQ] Sun Blocks",
           "game": "OOT",
           "icon": "wallmaster.png",
+          "required_items": []
+        },
+        {
+          "id": "spirit-temple-to-boss-twinrova",
+          "name": "Boss - Twinrova",
+          "game": "OOT",
+          "icon": "boss.png",
           "required_items": []
         }
       ],
@@ -1269,6 +1422,20 @@
       "name": "Ganon's Castle",
       "color": "#887BE8",
       "entrances": [
+        {
+          "id": "ganons-castle-to-wallmaster-light",
+          "name": "Wallmaster - Light",
+          "game": "OOT",
+          "icon": "wallmaster.png",
+          "required_items": []
+        },
+        {
+          "id": "ganons-castle-to-wallmaster-spirit",
+          "name": "Wallmaster - Spirit",
+          "game": "OOT",
+          "icon": "wallmaster.png",
+          "required_items": []
+        },
         {
           "id": "ganons-castle-to-ganons-tower",
           "name": "Ganon's Tower",
@@ -2703,6 +2870,66 @@
           "name": "Beneath the Well End",
           "game": "MM",
           "icon": "big-key.png",
+          "required_items": []
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "woodfall-temple",
+      "name": "Woodfall Temple",
+      "color": "#4CAF50",
+      "entrances": [
+        {
+          "id": "woodfall-temple-to-boss-odolwa",
+          "name": "Boss - Odolwa",
+          "game": "MM",
+          "icon": "boss.png",
+          "required_items": []
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "snowhead-temple",
+      "name": "Snowhead Temple",
+      "color": "#03DAC6",
+      "entrances": [
+        {
+          "id": "snowhead-temple-to-boss-goht",
+          "name": "Boss - Goht",
+          "game": "MM",
+          "icon": "boss.png",
+          "required_items": []
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "great-bay-temple",
+      "name": "Great Bay Temple",
+      "color": "#2196F3",
+      "entrances": [
+        {
+          "id": "great-bay-temple-to-boss-gyorg",
+          "name": "Boss - Gyorg",
+          "game": "MM",
+          "icon": "boss.png",
+          "required_items": []
+        }
+      ],
+      "game": "MM"
+    },
+    {
+      "id": "inverted-stone-tower-temple",
+      "name": "Inverted Stone Tower Temple",
+      "color": "#9E9E9E",
+      "entrances": [
+        {
+          "id": "inverted-stone-tower-temple-to-boss-twinmold",
+          "name": "Boss - Twinmold",
+          "game": "MM",
+          "icon": "boss.png",
           "required_items": []
         }
       ],

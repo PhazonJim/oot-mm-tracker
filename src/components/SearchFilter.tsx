@@ -3,8 +3,8 @@ import React from 'react';
 interface SearchFilterProps {
   searchTerm: string;
   onSearchChange: (term: string) => void;
-  filterType: 'all' | 'overworld' | 'town' | 'special';
-  onFilterChange: (type: 'all' | 'overworld' | 'town' | 'special') => void;
+  filterType: 'all' | 'overworld' | 'town' | 'dungeon' | 'special';
+  onFilterChange: (type: 'all' | 'overworld' | 'town' | 'dungeon' | 'special') => void;
   gameFilter: 'all' | 'OOT' | 'MM';
   onGameFilterChange: (game: 'all' | 'OOT' | 'MM') => void;
   isDarkMode: boolean;
@@ -53,6 +53,13 @@ const SearchFilter: React.FC<SearchFilterProps> = ({
           aria-pressed={filterType === 'town'}
         >
           Towns
+        </button>
+        <button
+          className={`filter-btn ${filterType === 'dungeon' ? 'active' : ''}`}
+          onClick={() => onFilterChange('dungeon')}
+          aria-pressed={filterType === 'dungeon'}
+        >
+          Dungeons
         </button>
         <button
           className={`filter-btn ${filterType === 'special' ? 'active' : ''}`}
