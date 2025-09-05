@@ -71,30 +71,6 @@ const RouteFinder: React.FC<RouteFinderProps> = () => {
           }
         }
       }
-      
-      // Also check if current location can be reached from other areas
-      // (in case current.location is a destination name, not an area name)
-      for (const [entranceId, destination] of Object.entries(connections)) {
-        if (destination === current.location) {
-          // Find the area this entrance belongs to
-          const sourceArea = areas.find(area => 
-            area.entrances.some(e => e.id === entranceId)
-          );
-          if (sourceArea && !visited.has(sourceArea.name)) {
-            visited.add(sourceArea.name);
-            // This creates a reverse path - we can go back to the source area
-            const entrance = sourceArea.entrances.find(e => e.id === entranceId);
-            if (entrance) {
-              const newPath = [...current.path, {
-                from: current.location,
-                to: sourceArea.name,
-                entrance: `${current.location} - Reverse to ${sourceArea.name}`
-              }];
-              queue.push({location: sourceArea.name, path: newPath});
-            }
-          }
-        }
-      }
     }
     
     // No route found
